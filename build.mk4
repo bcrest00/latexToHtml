@@ -1,0 +1,17 @@
+local filter = require "make4ht-filter"
+local domfilter = require "make4ht-domfilter"
+
+local domfilters = domfilter {"booktabs","joincharacters","mathmlfixes"}
+local filters = filter {"fixligatures","fix-links"}
+
+
+if mode == "draft" then
+  Make:htlatex {}
+else
+  Make:htlatex {}
+  Make:htlatex {}
+  Make:htlatex {}
+end
+
+Make:match("html$", filters)
+Make:match("html$", domfilters)

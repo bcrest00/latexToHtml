@@ -14,33 +14,43 @@ htfcss: ecss  font-family: sans-serif;
 htfcss: ecff  font-family: fantasy;
 htfcss: ecti  font-style: italic;
 htfcss: ectt  font-family: monospace,monospace;
-htfcss: cmbsy font-weight: bold;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
 htfcss: cmmi font-style: italic;
 htfcss: cmmib font-style: italic; font-weight: bold;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
+htfcss: cmbsy font-weight: bold;
+htfcss: cmbsy font-weight: bold;
+htfcss: cmbsy font-weight: bold;
 htfcss: ecbx  font-weight: bold;
 htfcss: ecsx  font-weight: bold;
 htfcss: ecbi  font-weight: bold;   font-style: italic;
@@ -52,10 +62,17 @@ htfcss: ectt  font-family: monospace,monospace;
 File: test.html
 File: test.css
 File: test.tmp
+File: test.tmp
+File: test.css
 File: test2.html
 File: test3.html
 File: testse1.html
 File: testsu1.html
+File: testse2.html
+File: testse3.html
+File: testse4.html
+File: testse5.html
+File: testse6.html
 File: testsu2.html
 File: testsu3.html
 File: testsu4.html
@@ -64,12 +81,31 @@ File: testsu6.html
 File: testsu7.html
 File: testsu8.html
 File: testsu9.html
-File: testse2.html
+File: testse7.html
 File: testsu10.html
 File: testsu11.html
-File: testse3.html
+File: testsu12.html
+File: testsu13.html
+File: testsu14.html
+File: testsu15.html
+File: testsu16.html
+File: testsu17.html
+File: testse8.html
+File: testsu18.html
+File: testsu19.html
+File: testsu20.html
+File: testsu21.html
+File: testsu22.html
+File: testsu23.html
+File: testsu24.html
+File: testsu25.html
+File: testsu26.html
+File: testse9.html
+File: testsu27.html
+File: testsu28.html
+File: testse10.html
 File: testli1.html
-File: testse4.html
+File: testse11.html
 Css: @media print {span.next {visibility:hidden;}}
 Css: body#tex4ht-menu {white-space: nowrap; }
 Css: p{margin-top:0;margin-bottom:0}
@@ -88,7 +124,7 @@ Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; 
 Css: center { margin-top:1em; margin-bottom:1em; }
 Css: td center { margin-top:0em; margin-bottom:0em; }
 Css: .Canvas { position:relative; }
-Css: img.math{vertical-align:middle;}
+Css: math { text-indent: 0em; }
 Css: li p.indent { text-indent: 0em }
 Css: li p:first-child{ margin-top:0em; }
 Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -148,23 +184,30 @@ Css: div.figure img {text-align:center;}
 Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
 Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
 Css: .reversemarginpar{float:left;}
-Css: table.equation {width:100%;}
-Css: .equation td{text-align:center; }
-Css: td.equation { margin-top:1em; margin-bottom:1em; } 
-Css: td.equation-label { width:5%; text-align:center; }
-Css: td.eqnarray4 { width:5%; white-space: normal; }
-Css: td.eqnarray2 { width:5%; }
-Css: table.eqnarray-star, table.eqnarray {width:100%;}
-Css: div.eqnarray{text-align:center;}
-Css: div.array {text-align:center;}
-Css: div.pmatrix {text-align:center;}
-Css: table.pmatrix {width:100%;}
-Css: span.pmatrix img{vertical-align:middle;}
-Css: div.pmatrix {text-align:center;}
-Css: table.pmatrix {width:100%;}
-Css: span.bar-css {text-decoration:overline;}
+Css: span.textbf { font-weight: bold; }
+Css: span.textit { font-style: italic; }
+Css: span.textrm { font-family: serif; }
+Css: span.textsc { font-variant: small-caps; }
+Css: span.textsf { font-family: sans-serif; }
+Css: span.texttt { font-family: monospace,monospace; }
+Css: span.emph { font-style: italic;}
+Css: span.emph span.emph {font-style: normal;}
+Css: .equation td{text-align:center; vertical-align:middle; }
+Css: td.eq-no{ width:5%; }
+Css: table.equation { width:100%; } 
+Css: div.math-display, div.par-math-display{text-align:center;}
+Css: mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
+Css: mtr.hline mtd mo{ display:none }
+Css: math .texttt { font-family: monospace; }
+Css: math .textit { font-style: italic; }
+Css: math .textsl { font-style: oblique; }
+Css: math .textsf { font-family: sans-serif; }
+Css: math .textbf { font-weight: bold; }
 Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
-Css: img.cdots{vertical-align:middle;}
+Css: mo.MathClass-op + mi{margin-left:0.3em}
+Css: mi + mo.MathClass-op{margin-left:0.3em}
+Css:  math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+Css:  math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
 Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 Css: .index-item, .index-subitem, .index-subsubitem {display:block}
 Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
@@ -194,95 +237,85 @@ Css: figure.figure img {text-align:center;}
 Css: figure.figure > p {text-align:center;}
 Css: figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 Css: figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
-Css: .equation td{text-align:center; }
-Css: .equation-star td{text-align:center; }
-Css: table.equation-star { width:100%; }
-Css: table.equation { width:100%; }
-Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
-Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
-Css: td.align-label { width:5%; text-align:center; }
-Css: td.align-odd { text-align:right; padding-right:0.3em;}
-Css: td.align-even { text-align:left; padding-right:0.6em;}
-Css: table.multline, table.multline-star {width:100%;}
-Css: td.gather {text-align:center; }
-Css: table.gather {width:100%;}
-Css: div.gather-star {text-align:center;}
-File: style.css
---- needs --- test.idv[2] ==> test0x.png ---
---- needs --- test.idv[3] ==> test1x.png ---
---- needs --- test.idv[4] ==> test2x.png ---
---- needs --- test.idv[5] ==> test3x.png ---
---- needs --- test.idv[6] ==> test4x.png ---
---- needs --- test.idv[8] ==> test5x.png ---
---- needs --- test.idv[9] ==> test6x.png ---
---- needs --- test.idv[10] ==> test7x.png ---
---- needs --- test.idv[11] ==> test8x.png ---
---- needs --- test.idv[13] ==> test9x.png ---
---- needs --- test.idv[14] ==> test10x.png ---
---- needs --- test.idv[15] ==> test11x.png ---
---- needs --- test.idv[16] ==> test12x.png ---
---- needs --- test.idv[18] ==> test13x.png ---
---- needs --- test.idv[19] ==> test14x.png ---
---- needs --- test.idv[20] ==> test15x.png ---
---- needs --- test.idv[21] ==> test16x.png ---
---- needs --- test.idv[23] ==> test17x.png ---
---- needs --- test.idv[24] ==> test18x.png ---
---- needs --- test.idv[26] ==> test19x.png ---
---- needs --- test.idv[27] ==> test20x.png ---
---- needs --- test.idv[28] ==> test21x.png ---
---- needs --- test.idv[29] ==> test22x.png ---
-Css: div.center-matrix{text-align: center;}
---- needs --- test.idv[31] ==> test23x.png ---
---- needs --- test.idv[32] ==> test24x.png ---
---- needs --- test.idv[33] ==> test25x.png ---
---- needs --- test.idv[34] ==> test26x.png ---
---- needs --- test.idv[35] ==> test27x.png ---
---- needs --- test.idv[36] ==> test28x.png ---
---- needs --- test.idv[37] ==> test29x.png ---
---- needs --- test.idv[38] ==> test30x.png ---
---- needs --- test.idv[39] ==> test31x.png ---
---- needs --- test.idv[40] ==> test32x.png ---
---- needs --- test.idv[41] ==> test33x.png ---
---- needs --- test.idv[43] ==> test34x.png ---
---- needs --- test.idv[45] ==> test35x.png ---
---- needs --- test.idv[46] ==> test36x.png ---
---- needs --- test.idv[47] ==> test37x.png ---
---- needs --- test.idv[48] ==> test38x.png ---
---- needs --- test.idv[49] ==> test39x.png ---
---- needs --- test.idv[50] ==> test40x.png ---
---- needs --- test.idv[52] ==> test41x.png ---
---- needs --- test.idv[53] ==> test42x.png ---
---- needs --- test.idv[55] ==> test43x.png ---
---- needs --- test.idv[56] ==> test44x.png ---
---- needs --- test.idv[58] ==> test45x.png ---
---- needs --- test.idv[60] ==> test46x.png ---
---- needs --- test.idv[61] ==> test47x.png ---
---- needs --- test.idv[62] ==> test48x.png ---
---- needs --- test.idv[64] ==> test49x.png ---
---- needs --- test.idv[65] ==> test50x.png ---
---- needs --- test.idv[66] ==> test51x.png ---
---- needs --- test.idv[67] ==> test52x.png ---
---- needs --- test.idv[68] ==> test53x.png ---
---- needs --- test.idv[69] ==> test54x.png ---
---- needs --- test.idv[70] ==> test55x.png ---
---- needs --- test.idv[71] ==> test56x.png ---
---- needs --- test.idv[72] ==> test57x.png ---
---- needs --- test.idv[73] ==> test58x.png ---
---- needs --- test.idv[74] ==> test59x.png ---
---- needs --- test.idv[76] ==> test60x.png ---
+Css:  .ex { border:none; padding: 1em; background: #C5E5A7; } 
+Css:  .sol { border:none; padding: 1em; } 
+Css: .rotatebox{display: inline-block;}
+Css: .figure img.graphics {margin-left:10%;}
+Css: div.verbatiminput {font-family: monospace,monospace; white-space: nowrap; }
+Css: .lstlisting .label{margin-right:0.5em; }
+Css: div.lstlisting{font-family: monospace,monospace; white-space: nowrap; margin-top:0.5em; margin-bottom:0.5em; }
+Css: div.lstinputlisting{ font-family: monospace,monospace; white-space: nowrap; }
+Css: .lstinputlisting .label{margin-right:0.5em;}
+Css:  .scq { border:none; padding: 1em; background: #FAF0A8; } 
+Css:  .feedback { border:none; padding: 1em; } 
+Css: .equation-star td{text-align:center; vertical-align:middle; }
+Css: table.equation-star { width:100%; } 
+Css: mtd.align-odd{margin-left:2em; text-align:right;}
+Css: mtd.align-even{margin-right:2em; text-align:left;}
+Css: .boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
+Css:  .edpuzzlecontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+Css:  .edpuzzlecontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; frameborder:0px; allowfullscreen=true; } 
+Css:  .edpuzzlecontainer p { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; padding: 0.2em; border:none; } 
+Css:  .youtubecontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+Css:  .youtubecontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+Css:  .geogebracontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+Css:  .geogebracontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+Css:  .desmoscontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+Css:  .desmoscontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+File: samples/imagenes/imagenConcepto.jpg
+File: samples/propiedades/periodicidad1.jpg
+Css: #textcolor1{color:#FF0000}
+Css: #textcolor2{color:#00FF00}
+Css: #textcolor3{color:#FF0000}
+File: samples/propiedades/periodicidad2.jpg
+Css: #textcolor4{color:#00FF00}
+Css: #textcolor5{color:#FF0000}
+Css: #textcolor6{color:#FF0000}
+File: samples/propiedades/periodicidad3.jpg
+Css: #textcolor7{color:#FF0000}
+Css: #textcolor8{color:#FF0000}
+Css: #textcolor9{color:#00FF00}
+File: samples/propiedades/periodicidad4.jpg
+Css: #textcolor10{color:#FF0000}
+Css: #textcolor11{color:#00FF00}
+Css: #textcolor12{color:#00FF00}
+File: samples/propiedades/periodicidad5.jpg
+Css: #textcolor13{color:#FF0000}
+Css: #textcolor14{color:#00FF00}
+Css: #textcolor15{color:#FF0000}
+File: samples/propiedades/funcionContinua.jpg
+File: samples/propiedades/funcionDiscontinua.jpg
+File: samples/propiedades/crecienteDecreciente.jpg
+File: samples/analisis/clasificaEsquema2.jpg
 --- characters ---
 Font("cmr","12","12","100")
 Font("ecrm","1200","12","100")
-Font("ecrm","2074","20","100")
-Font("ecrm","1440","14","100")
-Font("ectt","1200","12","100")
-Font("cmr","8","8","100")
-Font("cmmi","12","12","100")
-Font("cmmi","8","8","100")
-Font("cmsy","10","10","120")
-Font("cmsy","8","8","100")
-Font("cmex","10","10","120")
+Font("pzdr","","10","120")
 Font("cmmib","10","10","120")
 Font("cmbsy","10","10","120")
+Font("cmbsy","8","8","100")
+Font("cmbsy","6","6","100")
+Font("cmex","10","10","120")
+Font("cmex","8","8","100")
+Font("cmex","7","7","85")
+Font("msam","10","10","120")
+Font("msam","10","10","80")
+Font("msam","7","7","85")
+Font("msbm","10","10","120")
+Font("msbm","10","10","80")
+Font("msbm","7","7","85")
+Font("cmr","8","8","100")
+Font("cmr","6","6","100")
+Font("cmmi","12","12","100")
+Font("cmmi","8","8","100")
+Font("cmmi","6","6","100")
+Font("cmsy","10","10","120")
+Font("cmsy","8","8","100")
+Font("cmsy","6","6","100")
+Font("ectt","1200","12","100")
+Font("ecrm","2074","20","100")
+Font("ecrm","1440","14","100")
 Font("ecti","1200","12","100")
 Font("ecbx","1200","12","100")
+Font("tcrm","1200","12","100")
+Font("ecbi","1200","12","100")

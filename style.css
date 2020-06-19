@@ -1,3 +1,5 @@
+/* css.sty */
+
 /* panel principal */
 body {
 	//background:yellow;
@@ -7,9 +9,12 @@ body {
     font-size:120%;
     text-align: justify;
     text-justify: inter-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
     hyphens:auto;
+    margin-top:0px;
 }
-
 
 
 /* panel toc */
@@ -21,32 +26,39 @@ body#tex4ht-menu {
 }
 
 
-//body#tex4ht-main {
-//	background:green;
-//}
+body#tex4ht-main {
+	//background:green;
+	//font-size:200%;
+}
+
+/* título en portada */
+h2.titleHead {
+	font-size:300%;
+}
 
 nav.breadcrumbs-bar {
+  //border: 1px solid black;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
   background-color: #F4F4F4;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  left: 0;
-  border: 1px solid black;
+  position: fixed; 
+  top: 0px; 
+  left: 0px;
+  width: 100%;
   height: 2em;
+  padding: 0px;
+  margin: 0px;
   line-height: 2em;// centrar texto verticalmente
-  //font-size:100%;	
+  font-size:100%;	
+  z-index:1; // para que no lo tapen otros elementos como iframes
 }
 
 
 
 nav.controls-bar {
   overflow: hidden;
-  //background-color: yellow;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 50%; /* Position the navbar at the bottom of the page */
-  border: 1px solid black;
+  position: fixed; 
+  top: 50%; 
   width: 100%;
   left: 0;
   display:grid;
@@ -55,7 +67,7 @@ nav.controls-bar {
 }
 
 nav.controls-bar nav.prev {
-  border: 1px solid black;
+  //border: 1px solid black;
   grid-column-start: 1;
   grid-column-end: 1;
   font-size:200%;
@@ -63,7 +75,7 @@ nav.controls-bar nav.prev {
 
 
 nav.controls-bar nav.next {
-  border: 1px solid black;
+  //border: 1px solid black;
   grid-column: 3;
   font-size:200%;
 }
@@ -86,4 +98,82 @@ a:visited {
 
 a:hover {
 	text-decoration: underline;
+}
+
+
+.fakebreadcrumbs {
+	//background:yellow;
+	display: inline-block;
+	text-decoration:none;
+	vertical-align: bottom;
+	font-size: 100%;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -1em;
+	margin-bottom: 2em;
+}
+
+/* evita outline alrededor de fakebreadcrumbs en Chrome */
+.sectionHead a:focus, .likesectionHead a:focus, .subsectionHead a:focus, .likesubsectionHead a:focus {
+    outline: none;
+    -moz-outline-style: none;
+}
+
+
+
+/* ============================================================
+ * Cabeceras de secciones y subsecciones en el texto
+ * ============================================================
+ */
+ 
+.sectionHead {
+	font-family: sans-serif;
+	font-size: 200%;
+}
+
+.likesectionHead {
+	font-family: sans-serif;
+	font-size:200%;
+}
+
+.subsectionHead {
+	font-family: sans-serif;
+	font-size:150%;
+}
+
+.subsubsectionHead {
+	font-family: sans-serif;
+	font-size:125%;
+}
+
+/* ============================================================
+ * Cabeceras de secciones y subsecciones en el texto
+ * ============================================================
+ */
+ 
+.sectionToc {
+	font-family: sans-serif;
+	font-size:100%;
+}
+
+.likesectionToc {
+	font-family: sans-serif;
+	font-size: 100%;
+} 
+
+.subsectionToc {
+	font-family: sans-serif;
+	font-size: 100%;
+}
+
+
+/* ============================================================
+ * Título en toc
+ * ============================================================
+ */
+ 
+.title-in-toc {
+	//font-family: sans-serif;
+	font-size: 150%;
+	font-weight: bold;
 }

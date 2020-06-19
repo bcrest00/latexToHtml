@@ -1,47 +1,884 @@
-<?xml version='1.0' encoding='utf-8' ?> 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
-<!-- http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd -->  
-<html xml:lang='es' lang='es'> 
-<head><title>Spacing</title> 
-<meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (http://www.tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link rel='stylesheet' href='test.css' type='text/css' /> 
-<meta name='src' content='test.tex' /> 
-<link rel='stylesheet' href='style.css' type='text/css' /> 
-</head><body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html lang="es" xml:lang="es" > 
+<head><title>Simetrıa</title> 
+<meta  charset="utf-8" /> 
+<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1" /> 
+<link rel="stylesheet" type="text/css" href="test.css" /> 
+<meta name="src" content="test.tex" /> 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML"></script>  
+ 
+<script type ="text/javascript"> 
+function toogleSolution(exenv,thesolno) { var exid = exenv+thesolno; var f = document.getElementById( exid+"-Solution"); var show =document.getElementById(exid+"-SolutionShow"); var hide = document.getElementById(exid+"-SolutionHide"); if (f.style.display == "none") { f.style.display = "block"; show.style.display = "none"; hide.style.display = "inline"; } else { f.style.display = "none"; show.style.display = "inline"; hide.style.display = "none"; } }  
+</script> 
+  
+<script type ="text/javascript"> 
+function scqCorrection(thescqno) { for (i=1; i < 10; i++) { var choiceid = 'scq'+thescqno+'-'+i; var rb = document.getElementById(choiceid + '-RadioButton'); var cm = document.getElementById(choiceid + '-Checkmark'); if (rb.checked) { cm.style.display = 'inline'; } else { cm.style.display = 'none'; } } }  
+</script> 
+ </head><body 
+>
     
-<nav class='breadcrumbs-bar'> <span>           <a href='test3.html'>Inicio</a>    &gt; 1 <a href='testse1.html#x4-10001'>Matemáticas</a>             &gt; 1.3 <a href='#x7-40001.3'>Spacing</a>
-   </span> </nav> <nav class='controls-bar'><nav class='prev'><a href='testsu2.html'><span>❮</span></a></nav> <nav class='next'><a href='testsu4.html'><span>❯</span></a></nav></nav> <h4 class='subsectionHead'><span class='titlemark'>1.3   </span> <a id='x7-40001.3' href='test2.html#QQ2-7-4'><span style='display:inline table;border: 1px solid black;padding-top:2em;'> </span> </a>Spacing</h4>
-<!-- l. 40 --><p class='noindent'>Differentials often need a bit of help with their spacing as in
+<nav class="breadcrumbs-bar"> <span>                    <a href="test3.html">Inicio</a>                                                      &#x003E; 6 <a 
+href="testse6.html#x10-110006">Propiedades
+globales de una función</a>                         &#x003E; 6.2 <a 
+href="#x12-150006.2">Simetría</a>
+   </span> </nav> <nav class="controls-bar"><nav class="prev"><a 
+href="testsu2.html" ><span>❮</span></a></nav> <nav class="next"><a 
+href="testsu4.html" ><span>❯</span></a></nav></nav><h4 class="subsectionHead"><span class="titlemark">6.2   </span> <a 
+href="test2.html#QQ2-12-15" id="x12-150006.2"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Simetría</h4>
+<!--l. 2--><p class="noindent" >La gráfica de representación de una función puede presentar dos tipos de
+simetría: simetría respecto al eje de ordenadas o simetría respecto al origen
+de coordenadas. Veamos qué condiciones deben verificarse para que una función
+tenga alguno de estos tipos de simetría. </p><div class="youtubecontainer" style="width: 100%;padding-bottom:
+calc(0.5625*100%);"><iframe src="https://www.youtube.com/embed/UlD9kTKo7c8"></iframe></div>
+<!--l. 4--><p class="noindent" >
 </p>
-   <table class='equation-star'><tr><td>
-                          <img src='test13x.png' alt='∫∫' class='iint' /><span class='cmmi-12'>xy</span><sup><span class='cmr-8'>2</span></sup><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>dx</span><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>dy </span><span class='cmr-12'>=</span> <img align='middle' src='test14x.png' class='frac' alt='1-
-6' /><span class='cmmi-12'>x</span><sup><span class='cmr-8'>2</span></sup><span class='cmmi-12'>y</span><sup><span class='cmr-8'>3</span></sup><span class='cmmi-12'>,</span>
-</td></tr></table>
-<!-- l. 44 --><p class='nopar'>
-whereas vector problems often lead to statements such as
+   <h5 class="subsubsectionHead"><span class="titlemark">6.2.1   </span> <a 
+href="testse6.html#QQ2-12-16" id="x12-160006.2.1"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Simetría respecto del eje de ordenadas</h5>
+   <div class="newtheorem">
+<!--l. 5--><p class="noindent" ><span class="head">
+<a 
+ id="x12-16001r6"></a>
+<span 
+class="ecbx-1200">Definition </span><span class="textup">6</span><span 
+class="ecbx-1200">.</span>  </span><span 
+class="ecti-1200">La gr</span><span 
+class="ecti-1200">á</span><span 
+class="ecti-1200">fica de una funci</span><span 
+class="ecti-1200">ó</span><span 
+class="ecti-1200">n </span><!--l. 6--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math>
+<span 
+class="ecti-1200">es </span><span class="textbf">simétrica respecto del eje de ordenadas</span> <span 
+class="ecti-1200">si </span><!--l. 6--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math><span 
+class="ecti-1200">.</span>
 </p>
-   <table class='equation-star'><tr><td>
-                <span class='cmmi-12'>u </span><span class='cmr-12'>=</span> <img align='middle' src='test15x.png' class='frac' alt='  − y
--2----2-
-x  + y' /><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>,   v </span><span class='cmr-12'>=</span> <img align='middle' src='test16x.png' class='frac' alt='   x
--2----2-
-x +  y' /><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>,</span>   and   <span class='cmmi-12'>w </span><span class='cmr-12'>= 0</span><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>.</span>
-</td></tr></table>
+   </div>
+<!--l. 8--><p class="noindent" >Una función cuya gráfica es simétrica respecto del eje de ordenadas se
+denomina <span class="textbf">función par</span>.<br 
+class="newline" />Por ejemplo, la función <!--l. 9--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></math>,
+es <span class="textbf">simétrica respecto del eje de ordenadas</span>, puesto que:
                                                                           
 
                                                                           
-<!-- l. 50 --><p class='nopar'>
-Occasionally one gets horrible line breaks when using a list in mathematics such
-as listing the first twelve primes <img src='test17x.png' alt='2,3,5, 7,11,13,17,19, 23,29,31,37  ' class='math' /> . In such
-cases, perhaps include <span class='obeylines-h'><span class='verb'><span class='ectt-1200'>\mathcode‘\,="213B</span></span></span> inside the inline maths environment
-so that the list breaks: <img src='test18x.png' alt='2 , 3 , 5 , 7 , 11 , 13 , 17 , 19 , 23 , 29 , 31 , 37  ' class='math' /> . Be discerning
-about when to do this as the spacing is different.
+<!--tex4ht:inline--></p><!--l. 10--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+                       <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math>
+<!--l. 10--><p class="nopar" >  false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/cvscmh26/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 11--><p class="indent" >
+</p>
+   <h5 class="subsubsectionHead"><span class="titlemark">6.2.2   </span> <a 
+href="testse6.html#QQ2-12-17" id="x12-170006.2.2"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Simetría respecto del origen de coordenadas</h5>
+   <div class="newtheorem">
+<!--l. 13--><p class="noindent" ><span class="head">
+<a 
+ id="x12-17001r7"></a>
+<span 
+class="ecbx-1200">Definition </span><span class="textup">7</span><span 
+class="ecbx-1200">.</span>  </span><span 
+class="ecti-1200">La gr</span><span 
+class="ecti-1200">á</span><span 
+class="ecti-1200">fica de una funci</span><span 
+class="ecti-1200">ó</span><span 
+class="ecti-1200">n </span><!--l. 14--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math>
+<span 
+class="ecti-1200">es </span><span class="textbf">simétrica respecto del origen de coordenadas</span> <span 
+class="ecti-1200">si </span><!--l. 14--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math><span 
+class="ecti-1200">.</span>
+</p>
+   </div>
+<!--l. 16--><p class="noindent" >Una función cuya gráfica es simétrica respecto del origen de coordenadas se
+denomina <span class="textbf">función impar</span>.<br 
+class="newline" />Por ejemplo, la función <!--l. 17--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+></math>,
+es <span class="textbf">simétrica respecto del origen de coordenadas</span> ya que:
+<!--tex4ht:inline--></p><!--l. 18--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+                      <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>3</mn></mrow></msup 
+> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math>
+<!--l. 18--><p class="nopar" >  false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/a4kksftu/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 19--><p class="indent" >    </p><div class="youtubecontainer" style="width: 100%;padding-bottom: calc(0.5625*100%);"><iframe src="https://www.youtube.com/embed/kabnjBXPsWU"></iframe></div>
                                                                           
 
                                                                           
+<!--l. 22--><p class="noindent" >
 </p>
-    
+   <h5 class="subsubsectionHead"><span class="titlemark">6.2.3   </span> <a 
+href="testse6.html#QQ2-12-18" id="x12-180006.2.3"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Ejercicios</h5>
+<a 
+ id="x12-18001r12"></a>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 12</span>
+<!--l. 24--><p class="indent" >   Estudia la simetría de las siguientes funciones indicando las operaciones que
+has realizado. Para ayudarte, puedes servirte de la representación gráfica de las
+mismas:<br 
+class="newline" /></p>
+      <ul class="itemize1">
+      <li class="itemize"><!--l. 26--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mn>3</mn><mi 
+>x</mi> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+></math>
+      </li>
+      <li class="itemize"><!--l. 27--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>2</mn><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>8</mn></math>
+      </li>
+      <li class="itemize"><!--l. 28--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>6</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></math>
+      </li>
+      <li class="itemize"><!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>5</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mi 
+>x</mi></math>
+      </li>
+      <li class="itemize"><!--l. 30--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mi 
+>x</mi> <mo 
+class="MathClass-bin">⋅</mo><mo 
+class="MathClass-rel">|</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo></math>
+      </li>
+      <li class="itemize"><!--l. 31--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-rel">|</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo><mo 
+class="MathClass-bin">−</mo> <mn>1</mn></math>
+      </li>
+      <li class="itemize"><!--l. 32--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>    <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow> 
+<mrow><mn>1</mn> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac></math>
+      </li>
+      <li class="itemize"><!--l. 33--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>    <mi 
+>x</mi></mrow> 
+<mrow><mn>1</mn> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac></math>
+      </li>
+      <li class="itemize"><!--l. 34--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <mn>1</mn></mrow> 
+   <mrow><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac>    </math>
+      </li>
+      <li class="itemize"><!--l. 35--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>   <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow> 
+<mrow><mn>2</mn> <mo 
+class="MathClass-bin">−</mo> <mi 
+>x</mi></mrow></mfrac></math></li></ul>
+                                                                          
+
+                                                                          
+<!--l. 37--><p class="noindent" >true</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/tc5pbmae/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/true/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 37--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',12)"> <span id="ex12-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex12-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex12-Solution" style="display:none">
+      <ul class="itemize1">
+      <li class="itemize"><!--l. 4--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mn>3</mn><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">−</mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>3</mn><mi 
+>x</mi> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría impar</span>
+      </li>
+      <li class="itemize"><!--l. 5--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>2</mn><msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>8</mn> <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría par</span>
+      </li>
+      <li class="itemize"><!--l. 6--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>6</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>6</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-rel">=</mo><mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría par</span>
+      </li>
+      <li class="itemize"><!--l. 7--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>5</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">−</mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>5</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>3</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <mi 
+>x</mi> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría impar</span>
+      </li>
+      <li class="itemize"><!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría impar</span>
+      </li>
+      <li class="itemize"><!--l. 9--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-rel">|</mo><mo 
+class="MathClass-bin">−</mo> <mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo><mo 
+class="MathClass-bin">−</mo> <mn>1</mn> <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-rel">|</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo><mo 
+class="MathClass-bin">−</mo> <mn>1</mn> <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría par</span>
+      </li>
+      <li class="itemize"><!--l. 10--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mn>0</mn><mfrac><mrow>   <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow>
+<mrow><mn>1</mn> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac>  <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>    <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow> 
+<mrow><mn>1</mn> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac>  <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría par</span>
+      </li>
+      <li class="itemize"><!--l. 11--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>    <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+<mrow><mn>1</mn> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac>  <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>   <mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow> 
+<mrow><mn>1</mn> <mo 
+class="MathClass-bin">−</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac>  <mo 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría impar</span>
+      </li>
+      <li class="itemize"><!--l. 12--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow> <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <mn>1</mn></mrow> 
+   <mrow><msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow></mfrac>     <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      Función <span class="textbf">simetría par</span>
+                                                                          
+
+                                                                          
+      </li>
+      <li class="itemize"><!--l. 13--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>   <msup><mrow 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow> 
+<mrow><mn>2</mn> <mo 
+class="MathClass-bin">−</mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow></mfrac> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>   <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow> 
+<mrow><mn>2</mn> <mo 
+class="MathClass-bin">+</mo> <mi 
+>x</mi></mrow></mfrac> <mo 
+class="MathClass-rel">→</mo></math>
+      No presenta simetría</li></ul>
+   </div></div><!--l. 16--><p class="indent" >
+<a 
+ id="x12-18002r13"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 13</span>
+<!--l. 58--><p class="indent" >   ¿Qué tipo de simetría presentan las siguientes funciones?:<br 
+class="newline" /></p>
+      <ul class="itemize1">
+      <li class="itemize"><!--l. 60--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mi 
+>x</mi> <mo 
+class="MathClass-bin">−</mo> <mn>1</mn></math>
+      </li>
+      <li class="itemize"><!--l. 61--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>g</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow> <mn>1</mn></mrow> 
+<mrow><mi 
+>x</mi></mrow></mfrac></math>
+      </li>
+      <li class="itemize"><!--l. 62--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>h</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>4</mn></mrow> 
+<mrow><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <mn>1</mn></mrow></mfrac></math></li></ul>
+<!--l. 64--><p class="noindent" >false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/vyvhswrk/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 64--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',13)"> <span id="ex13-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex13-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex13-Solution" style="display:none">
+      <ul class="itemize1">
+      <li class="itemize"><!--l. 4--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      <span class="textbf">no simétrica</span>
+      </li>
+      <li class="itemize"><!--l. 5--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>g</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      <span class="textbf">simetría impar</span>
+                                                                          
+
+                                                                          
+      </li>
+      <li class="itemize"><!--l. 6--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>h</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">→</mo></math>
+      <span class="textbf">simetría par</span></li></ul>
+   </div></div><!--l. 9--><p class="indent" >
+                                                                          
+
+                                                                          
+</p><!--l. 9--><p class="indent" >   <div style="height:3em; width:10px; clear:both;"></div>   </p> 
 </body> 
 </html>

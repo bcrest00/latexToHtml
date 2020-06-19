@@ -1,0 +1,50 @@
+
+\begin{definition}
+Dada una función $f$, se denomina \emph{función inversa} de $f$, si existe, y se simboliza con $f^{-1}$, la función que cumple:
+$$f^{-1}(y) = x \longleftrightarrow f(x) = y$$
+\end{definition}
+La función inversa de $f^{-1}$ es, a su vez, $f: (f^{-1})^{-1}=f$.Por eso decimos, simplemente, que las funciones f y f^{-1} son inversas.
+La composición de una función $f$ con su inversa $f^{-1}$ es la \emph{función identidad}, $I(x)=x$:
+$$(f^{-1} \circ f)(x) = f^{-1}(f(x)) = I(x)$$
+$$(f \circ f^{-1})(x) =f(f^{-1}(x))=I(x)$$
+
+\subsubsection{Obtención de la función inversa}
+Para calcular la función inversa de una función dada $f$ debemos de seguir el siguiente procedimiento:
+\begin{enumerate}
+	\item Se escribe la función con $x$ e $y$.
+	\item Se despeja la variable $x$ en función de la variable $y$.
+	\item Se intercambian las variables.
+\end{enumerate}
+\youtube{l6pZGhy0hHc}
+
+\subsubsection{Ejercicios}
+\begin{ex}[sol after]
+	Halla la función inversa de $f(x)=2x+3$.
+	\begin{sol}
+		\begin{enumerate}
+			\item Intercambiamos las variables $x$ e $y$ en la expresión $y=2x+3$, con lo que resulta $x=2y+3$.
+			\item Despejamos $y$, con lo que obtenemos $y=\dfrac{x-3}{2}$. Luego $f^{-1}(x)=\dfrac{x-3}{2}$.
+			\item Comprobamos que la composición de las dos funciones hace corresponder a cada $x$ el mismo $x$:
+			$$(f^{-1} \circ f)(x) = f^{-1}(f(x)) = f^{-1}(2x+3) = \dfrac{2x + 3 - 3}{2} = x$$
+			$$(f \circ f^{-1})(x) = f(f^{-1}(x)) = f(\dfrac{x-3}{2}) =2 \cdot \dfrac{x-3}{2} + 3 = x$$
+		\end{enumerate}
+	\end{sol}
+\end{ex}
+
+\vspace{1cm}
+
+\begin{ex}[sol later]
+	En cada caso, calcula la función inversa de la dada:\\
+	\begin{itemize}
+		\item $f(x) = x^2 -\dfrac{1}{2}$
+		\item $h(x) = \log (x)$
+		\item $j(x) = \sqrt{x^2+5}$
+	\end{itemize}
+	\begin{sol}
+		\begin{itemize}
+			\item $f^{-1}(x) = \sqrt{\dfrac{2x+1}{2}}$
+			\item $h^{-1} = e^{x}$
+			\item $j^{-1} = \sqrt{x^2-5}$
+		\end{itemize}
+	\end{sol}
+\end{ex}

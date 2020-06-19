@@ -1,51 +1,450 @@
-<?xml version='1.0' encoding='utf-8' ?> 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
-<!-- http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd -->  
-<html xml:lang='es' lang='es'> 
-<head><title>Equation arrays</title> 
-<meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (http://www.tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link rel='stylesheet' href='test.css' type='text/css' /> 
-<meta name='src' content='test.tex' /> 
-<link rel='stylesheet' href='style.css' type='text/css' /> 
-</head><body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html lang="es" xml:lang="es" > 
+<head><title>Puntos de corte con los ejes</title> 
+<meta  charset="utf-8" /> 
+<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1" /> 
+<link rel="stylesheet" type="text/css" href="test.css" /> 
+<meta name="src" content="test.tex" /> 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML"></script>  
+ 
+<script type ="text/javascript"> 
+function toogleSolution(exenv,thesolno) { var exid = exenv+thesolno; var f = document.getElementById( exid+"-Solution"); var show =document.getElementById(exid+"-SolutionShow"); var hide = document.getElementById(exid+"-SolutionHide"); if (f.style.display == "none") { f.style.display = "block"; show.style.display = "none"; hide.style.display = "inline"; } else { f.style.display = "none"; show.style.display = "inline"; hide.style.display = "none"; } }  
+</script> 
+  
+<script type ="text/javascript"> 
+function scqCorrection(thescqno) { for (i=1; i < 10; i++) { var choiceid = 'scq'+thescqno+'-'+i; var rb = document.getElementById(choiceid + '-RadioButton'); var cm = document.getElementById(choiceid + '-Checkmark'); if (rb.checked) { cm.style.display = 'inline'; } else { cm.style.display = 'none'; } } }  
+</script> 
+ </head><body 
+>
     
-<nav class='breadcrumbs-bar'> <span>              <a href='test3.html'>Inicio</a>     &gt; 1 <a href='testse1.html#x4-10001'>Matemáticas</a>                          &gt; 1.5 <a href='#x9-60001.5'>Equation
-arrays</a>
-   </span> </nav> <nav class='controls-bar'><nav class='prev'><a href='testsu4.html'><span>❮</span></a></nav> <nav class='next'><a href='testsu6.html'><span>❯</span></a></nav></nav> <h4 class='subsectionHead'><span class='titlemark'>1.5   </span> <a id='x9-60001.5' href='test2.html#QQ2-9-6'><span style='display:inline table;border: 1px solid black;padding-top:2em;'> </span> </a>Equation arrays</h4>
-<!-- l. 104 --><p class='noindent'>In the flow of a fluid film we may report
-</p><table class='align'>
-                         <tr><td class='align-odd'><span class='cmmi-12'>u</span><sub><span class='cmmi-8'>α</span></sub></td>                         <td class='align-even'> <span class='cmr-12'>= </span><span class='cmmi-12'>𝜖</span><sup><span class='cmr-8'>2</span></sup><span class='cmmi-12'>κ</span><sub>
-<span class='cmmi-8'>xxx</span></sub><img align='middle' src='test34x.png' class='left' alt='(    1   )
- y − --y2
-     2' /><span class='cmmi-12'>,</span></td>                                                  <td class='align-label'><a id='x9-6001r1'></a>(1)
-                         </td></tr><tr><td class='align-odd'><span class='cmmi-12'>v</span></td>                           <td class='align-even'> <span class='cmr-12'>= </span><span class='cmmi-12'>𝜖</span><sup><span class='cmr-8'>3</span></sup><span class='cmmi-12'>κ</span><sub>
-<span class='cmmi-8'>xxx</span></sub><span class='cmmi-12'>y</span><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>,</span></td>                                                             <td class='align-label'><a id='x9-6002r2'></a>(2)
-                         </td></tr><tr><td class='align-odd'><span class='cmmi-12'>p</span></td>                           <td class='align-even'> <span class='cmr-12'>= </span><span class='cmmi-12'>𝜖κ</span><sub><span class='cmmi-8'>xx</span></sub><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>.</span></td>                                                                <td class='align-label'><a id='x9-6003r3'></a>(3)                         </td></tr></table>
-<!-- l. 116 --><p class='indent'>   Alternatively, the curl of a vector field <span class='cmr-12'>(</span><span class='cmmi-12'>u,v,w</span><span class='cmr-12'>) </span>may be written with only one
-equation number:
+<nav class="breadcrumbs-bar"> <span>                  <a href="test3.html">Inicio</a>                                                  &#x003E; 6 <a 
+href="testse6.html#x10-110006">Propiedades globales de
+una función</a>                                               &#x003E; 6.4 <a 
+href="#x14-210006.4">Puntos de corte con los ejes</a>
+   </span> </nav> <nav class="controls-bar"><nav class="prev"><a 
+href="testsu4.html" ><span>❮</span></a></nav> <nav class="next"><a 
+href="testsu6.html" ><span>❯</span></a></nav></nav><h4 class="subsectionHead"><span class="titlemark">6.4   </span> <a 
+href="test2.html#QQ2-14-21" id="x14-210006.4"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Puntos de corte con los ejes</h4>
+<!--l. 2--><p class="noindent" >Si una función corta el <span class="textbf">eje de abscisas</span>, lo hace en los puntos
+<!--l. 2--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>, es decir, los
+puntos donde <!--l. 2--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <mn>0</mn></math>.<br 
+class="newline" /><br 
+class="newline" />Si una función corta el <span class="textbf">eje de ordenadas</span>, lo hace en el punto
+<!--l. 4--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>, si
+<!--l. 4--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>0</mn></math>
+pertenece al dominio de la función.<br 
+class="newline" /><br 
+class="newline" />Una función puede cortar el eje de abscisas varias veces, una vez o ninguna, pero
+no puede cortar el eje de ordenadas en más de un punto, dado que en dicho caso
+no sería una función.<br 
+class="newline" /><br 
+class="newline" />Para calcular los puntos de corte con el eje de abscisas, se debe de igualar la función a
+<!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>0</mn></math>. Siendo el valor
+obtenido el valor de la <!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>
+y el 0 el valor de la <!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>y</mi></math>.
+En el caso de los puntos de corte del eje de ordenadas, para calcular el valor de la
+<!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>y</mi></math> correspondiente al
+punto que posee <!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi> <mo 
+class="MathClass-rel">=</mo> <mn>0</mn></math>,
+se debe de calcular el valor de la función en
+<!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>0</mn></math>,
+<!--l. 8--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>y</mi> <mo 
+class="MathClass-rel">=</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>.<br 
+class="newline" /></p><div class="youtubecontainer" style="width: 100%;padding-bottom: calc(0.5625*100%);"><iframe src="https://www.youtube.com/embed/FnauclNt3do"></iframe></div>
+<!--l. 10--><p class="noindent" >
+</p>
+   <h5 class="subsubsectionHead"><span class="titlemark">6.4.1   </span> <a 
+href="testse6.html#QQ2-14-22" id="x14-220006.4.1"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Signo de una función</h5>
+<!--l. 11--><p class="noindent" >Determinar el signo de una función consiste en hallar las zonas donde la función
+está por encima o por debajo del eje de abscisas, es decir, los valores del dominio para
+los cuales <!--l. 11--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">&#x003E;</mo> <mn>0</mn></math>
                                                                           
 
                                                                           
-</p><table class='align'>
-                              <tr><td class='align-odd'><span class='cmmi-12'>ω</span><sub><span class='cmr-8'>1</span></sub></td>                              <td class='align-even'> <span class='cmr-12'>=</span> <img align='middle' src='test35x.png' class='frac' alt='∂w-
-∂y' /> <span class='cmsy-10x-x-120'>−</span><img align='middle' src='test36x.png' class='frac' alt='∂v-
-∂z' /><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>,</span></td>                              <td class='align-label'></td>                              <td class='align-label'>
-                              </td></tr><tr><td class='align-odd'><span class='cmmi-12'>ω</span><sub><span class='cmr-8'>2</span></sub></td>                              <td class='align-even'> <span class='cmr-12'>=</span> <img align='middle' src='test37x.png' class='frac' alt='∂u-
-∂z' /> <span class='cmsy-10x-x-120'>−</span><img align='middle' src='test38x.png' class='frac' alt='∂w-
-∂x' /><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>,</span></td>                                                            <td class='align-label'><a id='x9-6004r4'></a>(4)
-                              </td></tr><tr><td class='align-odd'><span class='cmmi-12'>ω</span><sub><span class='cmr-8'>3</span></sub></td>                              <td class='align-even'> <span class='cmr-12'>=</span> <img align='middle' src='test39x.png' class='frac' alt='∂v-
-∂x' /> <span class='cmsy-10x-x-120'>−</span><img align='middle' src='test40x.png' class='frac' alt='∂u-
-∂y' /><span class='thinspace' style='margin-left:0.3em'></span><span class='cmmi-12'>.</span></td>                              <td class='align-label'></td>                              <td class='align-label'>                              </td></tr></table>
-<!-- l. 130 --><p class='indent'>   Whereas a derivation may look like
-</p><table class='align-star'>
-           <tr><td class='align-odd'><span class='cmr-12'>(</span><span class='cmmi-12'>p </span><span class='cmsy-10x-x-120'>∧ </span><span class='cmmi-12'>q</span><span class='cmr-12'>) </span><span class='cmsy-10x-x-120'>∨ </span><span class='cmr-12'>(</span><span class='cmmi-12'>p </span><span class='cmsy-10x-x-120'>∧¬</span><span class='cmmi-12'>q</span><span class='cmr-12'>)</span></td>           <td class='align-even'> <span class='cmr-12'>= </span><span class='cmmi-12'>p </span><span class='cmsy-10x-x-120'>∧ </span><span class='cmr-12'>(</span><span class='cmmi-12'>q </span><span class='cmsy-10x-x-120'>∨¬</span><span class='cmmi-12'>q</span><span class='cmr-12'>)</span>   by distributive law</td>           <td class='align-label'></td>           <td class='align-label'>
-           </td></tr><tr><td class='align-odd'></td>                            <td class='align-even'> <span class='cmr-12'>= </span><span class='cmmi-12'>p </span><span class='cmsy-10x-x-120'>∧ </span><span class='cmmi-12'>T</span>   by excluded middle</td>                 <td class='align-label'></td>           <td class='align-label'>
-           </td></tr><tr><td class='align-odd'></td>                            <td class='align-even'> <span class='cmr-12'>= </span><span class='cmmi-12'>p</span>   by identity</td>                             <td class='align-label'></td>           <td class='align-label'></td></tr></table>
+o <!--l. 11--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">&#x003C;</mo> <mn>0</mn></math>
+.<br 
+class="newline" /><br 
+class="newline" />Para determinar el signo de la función debemos representar en el eje de abscisas
+los puntos de corte de la función con dicho eje y los puntos donde la función no
+está definida. Después, analizamos el signo de la función en los distintos
+trozos.
+</p>
+   <h5 class="subsubsectionHead"><span class="titlemark">6.4.2   </span> <a 
+href="testse6.html#QQ2-14-23" id="x14-230006.4.2"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Ejercicios</h5>
+<a 
+ id="x14-23001r14"></a>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 14</span>
+<!--l. 17--><p class="indent" >   Determina los puntos de corte con los ejes de la función
+<!--l. 17--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></math>
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',14)"> <span id="ex14-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex14-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex14-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   El punto de corte con los ejes es:
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> false</p><div class="geogebracontainer" style="width: 100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/un6xmbsf/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 4--><p class="indent" >
+</p>
+   </div></div><!--l. 6--><p class="indent" >
+<a 
+ id="x14-23002r15"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 15</span>
+<!--l. 27--><p class="indent" >   Determina los puntos de corte con los ejes de la función
+<!--l. 27--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>   <mn>3</mn><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></mrow> 
+<mrow><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">+</mo> <mn>1</mn></mrow></mfrac></math>
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',15)"> <span id="ex15-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex15-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex15-Solution" style="display:none">
                                                                           
 
                                                                           
-    
+<!--l. 3--><p class="indent" >   El punto de corte con los ejes es:
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> false</p><div class="geogebracontainer" style="width: 100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/fd2tfayt/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 4--><p class="indent" >
+</p>
+   </div></div><!--l. 6--><p class="indent" >
+<a 
+ id="x14-23003r16"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 16</span>
+<!--l. 37--><p class="indent" >   Determina los puntos de corte con los ejes de la función
+<!--l. 37--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>4</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>2</mn><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+></math>
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',16)"> <span id="ex16-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex16-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex16-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   Los puntos de corte con los ejes son
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow><mo 
+class="MathClass-punc">,</mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><msqrt><mrow><mn>2</mn></mrow></msqrt><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> y
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><msqrt><mrow><mn>2</mn></mrow></msqrt><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> false</p><div class="geogebracontainer" style="width: 100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/e4fb746d/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 4--><p class="indent" >
+</p>
+   </div></div><!--l. 6--><p class="indent" >
+<a 
+ id="x14-23004r17"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 17</span>
+<!--l. 47--><p class="indent" >   Determina los puntos de corte con los ejes de la función
+<!--l. 47--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo> <msqrt><mrow><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn> </mrow> </msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>1</mn></mrow></msqrt></math>
+                                                                          
+
+                                                                          
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',17)"> <span id="ex17-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex17-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex17-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   Los puntos de corte con los ejes son
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>1</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> y
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mo 
+class="MathClass-bin">−</mo><mn>1</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> false</p><div class="geogebracontainer" style="width: 100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/mrr3hqe8/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 4--><p class="indent" >
+</p>
+   </div></div><!--l. 6--><p class="indent" >
+<a 
+ id="x14-23005r18"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 18</span>
+<!--l. 57--><p class="indent" >   Determina los puntos de corte con los ejes de la función
+<!--l. 57--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><mfrac><mrow>    <mn>1</mn></mrow> 
+<mrow><msup><mrow 
+><mi 
+>x</mi></mrow><mrow 
+><mn>2</mn></mrow></msup 
+> <mo 
+class="MathClass-bin">−</mo> <mn>9</mn></mrow></mfrac></math>
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',18)"> <span id="ex18-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex18-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex18-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   El punto de corte con los ejes es:
+<!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo><mo 
+class="MathClass-bin">−</mo><mfrac><mrow><mn>1</mn></mrow>
+<mrow><mn>9</mn></mrow></mfrac></mrow><mo 
+class="MathClass-close">)</mo></mrow></math> false</p><div class="geogebracontainer" style="width: 100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/cfme2yq3/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 4--><p class="indent" >
+</p>
+   </div></div><!--l. 6--><p class="indent" >
+<a 
+ id="x14-23006r19"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 19</span>
+<!--l. 71--><p class="indent" >   Determina los puntos de corte con los ejes de la función que se muestra a
+                                                                          
+
+                                                                          
+continuación:<br 
+class="newline" /> false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/mvmuqk5u/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 72--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',19)"> <span id="ex19-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex19-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex19-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   El punto de corte con los ejes es: <!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+</p>
+   </div></div><!--l. 5--><p class="indent" >
+<a 
+ id="x14-23007r20"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 20</span>
+<!--l. 81--><p class="indent" >   Determina los puntos de corte con los ejes de la función que se muestra a
+continuación:<br 
+class="newline" /> false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/d4audnb2/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 82--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',20)"> <span id="ex20-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex20-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex20-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   No hay puntos de corte con los ejes.
+</p>
+   </div></div><!--l. 5--><p class="indent" >
+<a 
+ id="x14-23008r21"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 21</span>
+<!--l. 91--><p class="indent" >   Determina los puntos de corte con los ejes de la función que se muestra a
+continuación:<br 
+class="newline" /> false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/mv8baxdm/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 92--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',21)"> <span id="ex21-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex21-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex21-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   No hay puntos de corte con los ejes.
+</p>
+   </div></div><!--l. 5--><p class="indent" >
+<a 
+ id="x14-23009r22"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 22</span>
+<!--l. 101--><p class="indent" >   Determina los puntos de corte con los ejes de la función que se muestra a
+continuación:<br 
+class="newline" /> false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/kcbmtz7k/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 102--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',22)"> <span id="ex22-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex22-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex22-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   El punto de corte con los ejes es: <!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+</p>
+   </div></div><!--l. 5--><p class="indent" >
+<a 
+ id="x14-23010r23"></a>
+</p>
+   <div style="display:block" class = "ex"><span 
+class="ecbx-1200">Problema</span><span 
+class="ecbx-1200"> 23</span>
+<!--l. 111--><p class="indent" >   Determina los puntos de corte con los ejes de la función que se muestra a
+continuación:<br 
+class="newline" /> false</p><div class="geogebracontainer" style="width:  100%;padding-bottom:
+                                                                          
+
+                                                                          
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/fw3xywww/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 112--><p class="indent" >
+</p></div>
+   <div class = "sol"> <span 
+class="ecbx-1200">Solución: </span><button onclick="javascript:toogleSolution('ex',23)"> <span id="ex23-SolutionShow" style="display:inline"> Mostrar</span><span id = "ex23-SolutionHide" style="display:none">Ocultar</span></button> <div id="ex23-Solution" style="display:none">
+<!--l. 3--><p class="indent" >   El punto de corte con los ejes es: <!--l. 3--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
+</p>
+   </div></div><!--l. 5--><p class="indent" >
+                                                                          
+
+                                                                          
+</p><!--l. 15--><p class="indent" >   <div style="height:3em; width:10px; clear:both;"></div>   </p> 
 </body> 
 </html>

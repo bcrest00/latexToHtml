@@ -1,0 +1,53 @@
+\youtube{a7mRvMyayVM}
+\subsubsection{Modelo de función logarítmica}
+Analiza y representa la función $y=\ln (x^2-1)$
+\begin{itemize}
+	\item \textbf{1. Tipo de función: }logarítmica.
+	\item \textbf{2. Dominio: }por ser una función logarítmica, el argumento tiene que ser positivo, es decir, mayor que cero.\\
+	$x^2-1 >0$, se resuelve la ecuación correspondiente $x^2-1 = 0 \rightarrow x^2=1 \rightarrow x_1=-1$, $x_2=1$. Como las raíces son simples, en cada una de ellas $x^2-1$ cambia el signo.\\
+	$x^2-1 \rightarrow $Si $x=0 \rightarrow 0^2-1 = -1 <0$ (-)\\
+	Dom(f)=$(-\infty , -1)\bigcup(1, +\infty)$
+	\item \textbf{3. Continuidad: }es discontinua en $x=-1, x=1$
+	\begin{itemize}
+		\item Para $x=-1$, se tiene $f(-1)$ no existe:\\
+		$$\lim_{x \to -1^{-}}(\ln (x^2-1))=-\infty$$
+		$$\lim_{x \to -1^{+}}(\ln (x^2-1)) \text{no existe}$$
+		Por tanto, para $x=-1$, la función tiene una discontinuidad de 2ª especie.
+		\item Para $x=1$, se tiene $f(1)$ no existe:\\
+		$$\lim_{x \to 1^{-}}(\ln (x^2-1)) \text{no existe}$$
+		$$\lim_{x \to 1^{+}}(\ln (x^2-1))=-\infty$$
+		Por tanto, para $x=1$, la función tiene una discontinuidad de 2ª especie.
+	\end{itemize}
+	\item \textbf{4. Periodicidad: }no es periódica, porque las funciones logarítmicas nunca lo son.
+	\item \textbf{5. Simetrías: }$f(-x)= \ln[(-x)^2-1] = \ln(x^2-1)$\\
+	Se observa que $f(-x)=f(x) \rightarrow$ función par $\rightarrow$ simetría respecto del eje Y.
+	\item \textbf{6. Asíntotas: }
+	\begin{itemize}
+		\item Verticales: $x=-1, x=1$\\
+		Posición de la curva respecto de las asíntotas verticales:
+		$$\lim_{x \to -1^{-}}(\ln (x^2-1))=-\infty$$
+		$$\lim_{x \to -1^{+}}(\ln (x^2-1)) \text{no existe}$$
+		$$\lim_{x \to 1^{-}}(\ln (x^2-1)) \text{no existe}$$
+		$$\lim_{x \to 1^{+}}(\ln (x^2-1))=-\infty$$
+		\item Horizontales: no tiene.
+		\item Oblicuas: no tiene.
+	\end{itemize}
+	\item \textbf{7. Corte con los ejes: }
+	\begin{itemize}
+		\item \textbf{Eje X: }$\ln(x^2-1) = 0 \rightarrow x^2-1=1 \rightarrow x^2=2 \rightarrow x_1=-\sqrt{2}$, $x_2=\sqrt{2}$, raíces simples. Se obtienen los puntos $A(-\sqrt{2},0); B(\sqrt{2},0)$\\
+		Se obtienen los puntos $A(-2, 0)$ y $B(2,0)$
+		\item \textbf{Eje Y: }no lo corta.
+		\item \textbf{Signo: }Si $x=2 \rightarrow f(2)=\ln(3)>0$ (+)
+	\end{itemize}
+	\item \textbf{8. Máximos y mínimos relativos: }\\
+	$f'(x)=\dfrac{2x}{x^2-1} \rightarrow \dfrac{2x}{x^2-1} = 0 \rightarrow x=0 \notin$ Dom(f)\\
+	No tiene ni máximos ni mínimos relativos.\\
+	\textbf{Monotonía: }\\
+	$f'(x) = \dfrac{2x}{x^2-1} \rightarrow $Si $x=2 \rightarrow f'(2)=\dfrac{2\cdot 2}{2^2-1} = \dfrac{4}{3}>0$ (+)
+	\item \textbf{9. Puntos de inflexión: }\\
+	$f''(x)=-\dfrac{2x^2+2}{(x^2-1)^{2}}$ \\
+	$f''(x)$ nunca se hace cero, por lo tanto no ha puntos de inflexión.\\
+	\textbf{Curvatura: }\\
+	$f''(x)=-\dfrac{2x^2+2}{(x^2-1)^{2}}$ siempre es negativo $\rightarrow$ siempre es cóncava $(\bigcap)$.	
+\end{itemize}
+\geogebra{pgghxa8t}

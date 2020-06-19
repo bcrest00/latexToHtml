@@ -1,0 +1,55 @@
+Sea $f(x)$ una función derivable en $(a,b)$. La gráfica de $f(x)$ es convexa $(\bigcup)$ en $(a,b)$ si $f'(x)$ es creciente en $(a,b)$, y es cóncava $(\bigcap)$ si $f'(x)$ es decreciente en $(a,b)$.\\
+\begin{definition}
+Un \textbf{punto de inflexión} de una función es un punto en el que la función cambia de convexa $(\bigcup)$ a cóncava $(\bigcap)$, o viceversa, y la tangente atraviesa la gráfica.
+\end{definition}
+
+\subsubsection{Procedimiento para hallar los puntos de inflexión}
+\begin{enumerate}
+	\item Se calcula la segunda derivada $f''(x)$.
+	\item Se resuelve la ecuación, $f''(x)=0$.
+	\item Se sustituyen las raíces de $f''(x)=0$ en la función inicial $y=f(x)$, y se obtienen los posibles puntos de inflexión.
+	\item Se halla la tercera derivada, $f'''(x)$.
+	\item Se sustituyen las abscisas de los posibles puntos de inflexión en la 3ª derivada, $f'''(x)$. Si $f'''(x) \neq 0$, son puntos de inflexión.
+\end{enumerate}
+\youtube{TWrj32omRRY}
+\subsubsection{Criterio para el estudio de la curvatura}
+Sea $f(x)$ una función cuya segunda derivada existe en $(a,b)$:
+\begin{itemize}
+	\item Si $f''(x) > 0$ para todo $x \in (a,b)$, la gráfica de $f(x)$ es convexa $(\bigcup)$ en $(a,b)$.
+	\item Si $f''(x) < 0$ para todo $x \in (a,b)$, la gráfica de $f(x)$ es cóncava $(\bigcap)$ en $(a,b)$.
+\end{itemize}
+
+\begin{definition}
+Estudiar la \textbf{curvatura} de una función consiste en estudiar en qué intervalos es convexa $(\bigcup)$ y en cuáles es cóncava $(\bigcap)$. Los intervalos de curvatura están separados por los puntos de inflexión y las discontinuidades.
+\end{definition}
+
+\subsubsection{Procedimiento para calcular la curvatura}
+\begin{enumerate}
+	\item Se calculan los puntos de inflexión.
+	\item Se hallan las discontinuidades.
+	\item Se representan en la recta real $\mathbb{R}$ las abscisas de los puntos de inflexión y las discontinuidades.
+	\item Se prueba un punto de cada intervalo en la segunda derivada; solamente se considera el signo.\\
+	En los intervalos consecutivos, $f''(x)$ cambia de signo si la multiplicidad de la raíz de $f''(x)$ o de su discontinuidad es impar; si es par, no cambia.
+	\item Se escriben los intervalos de convexidad $(\bigcup)$, que son los correspondientes a $f''(x) > 0$.
+	\item Se escriben los intervalos de concavidad $(\bigcap)$, que son los correspondientes a $f''(x) < 0$.
+\end{enumerate}
+\youtube{I2T9322j-c4}
+\subsubsection{Ejercicios}
+\begin{ex}[sol later]
+	Calcula los puntos de inflexión de las siguientes funciones:\\
+	\begin{itemize}
+		\item $f(x)=-x^3+3x$
+		\item $f(x)=x^4-2x^2-8$
+		\item $f(x)=e^{-x^2}$
+	\end{itemize}
+	\begin{sol}
+		\begin{itemize}
+			\item Punto de inflexión en $(0,0)$.
+			\item Puntos de inflexión en $(-\dfrac{\sqrt{3}}{3},-\dfrac{77}{9})$ y $(\dfrac{\sqrt{3}}{3},\dfrac{77}{9})$.
+			\item Puntos de inflexión en $(-\dfrac{\sqrt{2}}{2},e^{-\dfrac{1}{2}})$ y $(\dfrac{\sqrt{2}}{2},e^{-\dfrac{1}{2}})$.
+		\end{itemize}
+	\end{sol}
+\end{ex}
+
+
+

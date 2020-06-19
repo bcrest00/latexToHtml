@@ -1,18 +1,69 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
-\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{4}{x4-10001}{QQ2-4-1}{Matemáticas}}{4}\relax 
-\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{5}{x5-20001.1}{QQ2-5-2}{Básicos}}{5}\relax 
-\doTocEntry\tocsubsection{1.2}{\csname a:TocLink\endcsname{6}{x6-30001.2}{QQ2-6-3}{Delimiters}}{7}\relax 
-\doTocEntry\tocsubsection{1.3}{\csname a:TocLink\endcsname{7}{x7-40001.3}{QQ2-7-4}{Spacing}}{9}\relax 
-\doTocEntry\tocsubsection{1.4}{\csname a:TocLink\endcsname{8}{x8-50001.4}{QQ2-8-5}{Arrays}}{11}\relax 
-\doTocEntry\tocsubsection{1.5}{\csname a:TocLink\endcsname{9}{x9-60001.5}{QQ2-9-6}{Equation arrays}}{13}\relax 
-\doTocEntry\tocsubsection{1.6}{\csname a:TocLink\endcsname{10}{x10-70001.6}{QQ2-10-7}{Functions}}{15}\relax 
-\doTocEntry\tocsubsection{1.7}{\csname a:TocLink\endcsname{11}{x11-80001.7}{QQ2-11-8}{Accents}}{17}\relax 
-\doTocEntry\tocsubsection{1.8}{\csname a:TocLink\endcsname{12}{x12-90001.8}{QQ2-12-9}{Command definition}}{19}\relax 
-\doTocEntry\tocsubsection{1.9}{\csname a:TocLink\endcsname{13}{x13-100001.9}{QQ2-13-10}{Theorems et al.}}{21}\relax 
-\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{14}{x14-110002}{QQ2-14-11}{Sección}}{23}\relax 
-\doTocEntry\tocsubsection{2.1}{\csname a:TocLink\endcsname{15}{x15-120002.1}{QQ2-15-12}{Subsección}}{26}\relax 
-\doTocEntry\tocsubsection{2.2}{\csname a:TocLink\endcsname{16}{x16-130002.2}{QQ2-16-13}{Otra subsección}}{31}\relax 
-\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{17}{x17-140003}{QQ2-17-14}{Otra sección}}{35}\relax 
-\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{18}{x18-150003}{QQ2-18-15}{Otra sección no numerada}}{39}\relax 
-\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{19}{x19-160004}{QQ2-19-16}{Una última sección}}{43}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{4}{x4-10001}{QQ2-4-1}{Introducción}}{9}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{5}{x5-20001.1}{QQ2-5-2}{Organiza tus ideas}}{9}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{6}{x6-30002}{QQ2-6-3}{Concepto de función}}{10}\relax 
+\doTocEntry\tocsubsubsection{2.0.1}{\csname a:TocLink\endcsname{6}{x6-40002.0.1}{QQ2-6-4}{Ejercicios.}}{11}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{7}{x7-50003}{QQ2-7-5}{Operaciones con funciones}}{14}\relax 
+\doTocEntry\tocsubsubsection{3.0.1}{\csname a:TocLink\endcsname{7}{x7-60003.0.1}{QQ2-7-6}{Ejercicios}}{16}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{8}{x8-70004}{QQ2-8-7}{Función compuesta}}{20}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{9}{x9-80005}{QQ2-9-8}{Función inversa de una función}}{25}\relax 
+\doTocEntry\tocsubsubsection{5.0.1}{\csname a:TocLink\endcsname{9}{x9-90005.0.1}{QQ2-9-9}{Obtención de la función inversa}}{26}\relax 
+\doTocEntry\tocsubsubsection{5.0.2}{\csname a:TocLink\endcsname{9}{x9-100005.0.2}{QQ2-9-10}{Ejercicios}}{27}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{10}{x10-110006}{QQ2-10-11}{Propiedades globales de una función}}{30}\relax 
+\doTocEntry\tocsubsection{6.1}{\csname a:TocLink\endcsname{11}{x11-120006.1}{QQ2-11-12}{Dominio}}{31}\relax 
+\doTocEntry\tocsubsubsection{6.1.1}{\csname a:TocLink\endcsname{11}{x11-130006.1.1}{QQ2-11-13}{Cómo calcular el dominio}}{32}\relax 
+\doTocEntry\tocsubsubsection{6.1.2}{\csname a:TocLink\endcsname{11}{x11-140006.1.2}{QQ2-11-14}{Ejercicios}}{33}\relax 
+\doTocEntry\tocsubsection{6.2}{\csname a:TocLink\endcsname{12}{x12-150006.2}{QQ2-12-15}{Simetría}}{36}\relax 
+\doTocEntry\tocsubsubsection{6.2.1}{\csname a:TocLink\endcsname{12}{x12-160006.2.1}{QQ2-12-16}{Simetría respecto del eje de ordenadas}}{36}\relax 
+\doTocEntry\tocsubsubsection{6.2.2}{\csname a:TocLink\endcsname{12}{x12-170006.2.2}{QQ2-12-17}{Simetría respecto del origen de coordenadas}}{37}\relax 
+\doTocEntry\tocsubsubsection{6.2.3}{\csname a:TocLink\endcsname{12}{x12-180006.2.3}{QQ2-12-18}{Ejercicios}}{38}\relax 
+\doTocEntry\tocsubsection{6.3}{\csname a:TocLink\endcsname{13}{x13-190006.3}{QQ2-13-19}{Periodicidad}}{42}\relax 
+\doTocEntry\tocsubsubsection{6.3.1}{\csname a:TocLink\endcsname{13}{x13-200006.3.1}{QQ2-13-20}{Ejercicios}}{42}\relax 
+\doTocEntry\tocsubsection{6.4}{\csname a:TocLink\endcsname{14}{x14-210006.4}{QQ2-14-21}{Puntos de corte con los ejes}}{47}\relax 
+\doTocEntry\tocsubsubsection{6.4.1}{\csname a:TocLink\endcsname{14}{x14-220006.4.1}{QQ2-14-22}{Signo de una función}}{47}\relax 
+\doTocEntry\tocsubsubsection{6.4.2}{\csname a:TocLink\endcsname{14}{x14-230006.4.2}{QQ2-14-23}{Ejercicios}}{48}\relax 
+\doTocEntry\tocsubsection{6.5}{\csname a:TocLink\endcsname{15}{x15-240006.5}{QQ2-15-24}{Continuidad}}{54}\relax 
+\doTocEntry\tocsubsubsection{6.5.1}{\csname a:TocLink\endcsname{15}{x15-250006.5.1}{QQ2-15-25}{Ejercicios}}{54}\relax 
+\doTocEntry\tocsubsection{6.6}{\csname a:TocLink\endcsname{16}{x16-260006.6}{QQ2-16-26}{Crecimiento y decrecimiento}}{57}\relax 
+\doTocEntry\tocsubsubsection{6.6.1}{\csname a:TocLink\endcsname{16}{x16-270006.6.1}{QQ2-16-27}{Ejercicios}}{58}\relax 
+\doTocEntry\tocsubsection{6.7}{\csname a:TocLink\endcsname{17}{x17-280006.7}{QQ2-17-28}{Máximos y mínimos relativos y absolutos}}{63}\relax 
+\doTocEntry\tocsubsubsection{6.7.1}{\csname a:TocLink\endcsname{17}{x17-290006.7.1}{QQ2-17-29}{Procedimiento para calcular máximos y mínimos relativos}}{64}\relax 
+\doTocEntry\tocsubsubsection{6.7.2}{\csname a:TocLink\endcsname{17}{x17-300006.7.2}{QQ2-17-30}{Ejercicios}}{64}\relax 
+\doTocEntry\tocsubsection{6.8}{\csname a:TocLink\endcsname{18}{x18-310006.8}{QQ2-18-31}{Concavidad y puntos de inflexión}}{67}\relax 
+\doTocEntry\tocsubsubsection{6.8.1}{\csname a:TocLink\endcsname{18}{x18-320006.8.1}{QQ2-18-32}{Procedimiento para hallar los puntos de inflexión}}{67}\relax 
+\doTocEntry\tocsubsubsection{6.8.2}{\csname a:TocLink\endcsname{18}{x18-330006.8.2}{QQ2-18-33}{Criterio para el estudio de la curvatura}}{68}\relax 
+\doTocEntry\tocsubsubsection{6.8.3}{\csname a:TocLink\endcsname{18}{x18-340006.8.3}{QQ2-18-34}{Procedimiento para calcular la curvatura}}{69}\relax 
+\doTocEntry\tocsubsubsection{6.8.4}{\csname a:TocLink\endcsname{18}{x18-350006.8.4}{QQ2-18-35}{Ejercicios}}{70}\relax 
+\doTocEntry\tocsection{7}{\csname a:TocLink\endcsname{19}{x19-360007}{QQ2-19-36}{Análisis gráficos de funciones}}{71}\relax 
+\doTocEntry\tocsubsection{7.1}{\csname a:TocLink\endcsname{20}{x20-370007.1}{QQ2-20-37}{Análisis de la gráfica}}{71}\relax 
+\doTocEntry\tocsubsection{7.2}{\csname a:TocLink\endcsname{21}{x21-380007.2}{QQ2-21-38}{Clasificación de funciones}}{78}\relax 
+\doTocEntry\tocsubsubsection{7.2.1}{\csname a:TocLink\endcsname{21}{x21-390007.2.1}{QQ2-21-39}{Ejemplos}}{78}\relax 
+\doTocEntry\tocsubsection{7.3}{\csname a:TocLink\endcsname{22}{x22-400007.3}{QQ2-22-40}{Funciones polinómicas}}{79}\relax 
+\doTocEntry\tocsubsubsection{7.3.1}{\csname a:TocLink\endcsname{22}{x22-410007.3.1}{QQ2-22-41}{Modelo de función polinómica}}{79}\relax 
+\doTocEntry\tocsubsection{7.4}{\csname a:TocLink\endcsname{23}{x23-420007.4}{QQ2-23-42}{Funciones racionales}}{83}\relax 
+\doTocEntry\tocsubsubsection{7.4.1}{\csname a:TocLink\endcsname{23}{x23-430007.4.1}{QQ2-23-43}{Modelo de función racional}}{83}\relax 
+\doTocEntry\tocsubsection{7.5}{\csname a:TocLink\endcsname{24}{x24-440007.5}{QQ2-24-44}{Funciones irracionales}}{88}\relax 
+\doTocEntry\tocsubsubsection{7.5.1}{\csname a:TocLink\endcsname{24}{x24-450007.5.1}{QQ2-24-45}{Modelo de función irracional}}{88}\relax 
+\doTocEntry\tocsubsection{7.6}{\csname a:TocLink\endcsname{25}{x25-460007.6}{QQ2-25-46}{Funciones exponenciales}}{92}\relax 
+\doTocEntry\tocsubsubsection{7.6.1}{\csname a:TocLink\endcsname{25}{x25-470007.6.1}{QQ2-25-47}{Modelo de función exponencial}}{92}\relax 
+\doTocEntry\tocsubsection{7.7}{\csname a:TocLink\endcsname{26}{x26-480007.7}{QQ2-26-48}{Funciones logarítmicas}}{96}\relax 
+\doTocEntry\tocsubsubsection{7.7.1}{\csname a:TocLink\endcsname{26}{x26-490007.7.1}{QQ2-26-49}{Modelo de función logarítmica}}{96}\relax 
+\doTocEntry\tocsubsection{7.8}{\csname a:TocLink\endcsname{27}{x27-500007.8}{QQ2-27-50}{Funciones trigonométricas}}{102}\relax 
+\doTocEntry\tocsubsubsection{7.8.1}{\csname a:TocLink\endcsname{27}{x27-510007.8.1}{QQ2-27-51}{Modelo de función trigonométrica}}{102}\relax 
+\doTocEntry\tocsection{8}{\csname a:TocLink\endcsname{28}{x28-520008}{QQ2-28-52}{Matemáticas}}{106}\relax 
+\doTocEntry\tocsubsection{8.1}{\csname a:TocLink\endcsname{29}{x29-530008.1}{QQ2-29-53}{Básicos}}{106}\relax 
+\doTocEntry\tocsubsection{8.2}{\csname a:TocLink\endcsname{30}{x30-540008.2}{QQ2-30-54}{Delimiters}}{108}\relax 
+\doTocEntry\tocsubsection{8.3}{\csname a:TocLink\endcsname{31}{x31-550008.3}{QQ2-31-55}{Spacing}}{110}\relax 
+\doTocEntry\tocsubsection{8.4}{\csname a:TocLink\endcsname{32}{x32-560008.4}{QQ2-32-56}{Arrays}}{111}\relax 
+\doTocEntry\tocsubsection{8.5}{\csname a:TocLink\endcsname{33}{x33-570008.5}{QQ2-33-57}{Equation arrays}}{113}\relax 
+\doTocEntry\tocsubsection{8.6}{\csname a:TocLink\endcsname{34}{x34-580008.6}{QQ2-34-58}{Functions}}{115}\relax 
+\doTocEntry\tocsubsection{8.7}{\csname a:TocLink\endcsname{35}{x35-590008.7}{QQ2-35-59}{Accents}}{117}\relax 
+\doTocEntry\tocsubsection{8.8}{\csname a:TocLink\endcsname{36}{x36-600008.8}{QQ2-36-60}{Command definition}}{118}\relax 
+\doTocEntry\tocsubsection{8.9}{\csname a:TocLink\endcsname{37}{x37-610008.9}{QQ2-37-61}{Theorems et al.}}{119}\relax 
+\doTocEntry\tocsection{9}{\csname a:TocLink\endcsname{38}{x38-620009}{QQ2-38-62}{Sección}}{121}\relax 
+\doTocEntry\tocsubsection{9.1}{\csname a:TocLink\endcsname{39}{x39-630009.1}{QQ2-39-63}{Subsección}}{124}\relax 
+\doTocEntry\tocsubsection{9.2}{\csname a:TocLink\endcsname{40}{x40-640009.2}{QQ2-40-64}{Otra subsección}}{129}\relax 
+\doTocEntry\tocsection{10}{\csname a:TocLink\endcsname{41}{x41-6500010}{QQ2-41-65}{Otra sección}}{133}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{42}{x42-6600010}{QQ2-42-66}{Otra sección no numerada}}{137}\relax 
+\doTocEntry\tocsection{11}{\csname a:TocLink\endcsname{43}{x43-6700011}{QQ2-43-67}{Una última sección}}{141}\relax 
 \par 

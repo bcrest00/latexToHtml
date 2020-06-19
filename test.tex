@@ -9,25 +9,54 @@
 ]{babel}
 \unaccentedoperators
 
+\usepackage{solutions}
+\usepackage{choices}
 
 \usepackage{lipsum}
+\usepackage{graphicx}
 
 \usepackage{amsmath}
 \usepackage{amsthm}
+\usepackage{amssymb}
 
+\usepackage{mymedia}
 \usepackage{hyperref}
 
 \title{De LaTeX a HTML}
 \author{Nombre español}
 
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
 \begin{document}
 
 \maketitle
 
-\ifdefined\HCode\else
 \tableofcontents
-\fi
 
+
+
+\section{Introducción}
+\input{samples/introduccion.tex}
+
+\section{Concepto de función}
+\input{samples/concepto.tex}
+
+\section{Operaciones con funciones}
+\input{samples/operaciones.tex}
+
+\section{Función compuesta}
+\input{samples/funcionCompuesta.tex}
+
+\section{Función inversa de una función}
+\input{samples/funcionInversa.tex}
+
+\section{Propiedades globales de una función}
+\input{samples/propiedades.tex}
+
+\section{Análisis gráficos de funciones}
+\input{samples/analisis.tex}
 
 \section{Matemáticas}
 

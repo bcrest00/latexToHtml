@@ -1,0 +1,57 @@
+
+Sean dos funciones $f$ y $g$ definidas en el mismo subconjunto $D$ de los números reales, se definen las siguientes operaciones entre ellas:
+\begin{itemize}
+	\item \textbf{Adición}: la suma de $f$ y $g$ es la función $f+g$ que, para cualquier $x \in D$, verifica:
+	$$(f+g)(x) = f(x)+g(x)$$
+	\item \textbf{Sustracción}: la diferencia de $f$ y $g$ es la función $f-g$ que, para cualquier $x \in D$, verifica:
+	$$(f-g)(x) = f(x)-g(x)$$
+	\item \textbf{Multiplicación}: el producto de $f$ y $g$ es la función $f \cdot g$ que, para cualquier $x \in D$, verifica:
+	$$(f \cdot g)(x) = f(x) \cdot g(x)$$
+	\item \textbf{División}: el cociente de $f$ y $g$ es la función $\frac{f}{g}$ que, para cualquier $x \in D$, con $g(x) \neq 0$, verifica:
+	$$(\dfrac{f}{g})(x) = \dfrac{f(x)}{g(x)}$$
+\end{itemize}
+Las operaciones con funciones verifican las mismas propiedades que las operaciones con números reales, ya que se definen utilizando las operaciones con sus imágenes, que son números reales.\\
+El dominio de las funciones $f+g$, $f-g$, $f \cdot g$ y $\dfrac{f}{g}$ es la intersección de los dominios de $f$ y $g$, con la salvedad de que en el caso $\dfrac{f}{g}$, los valores de x que anulan el denominador no pertenecen al dominio.\\
+
+EJEMPLO
+\youtube{jP1mSfUqpxw}
+
+\subsubsection{Ejercicios}
+
+\begin{ex}[sol later]
+	Dadas las funciones $f(x)=5x+6$ y $g(x)=3x^2-4x+8$, calcula la suma $(f+g)(x)$ y la resta $(f-g)(x)$ de las funciones.
+	\begin{sol}
+		\begin{itemize}
+			\item $(f+g)(x) = f(x)+g(x) = (5x+6)+(3x^2-4x+8) = 3x^2+x+14$
+			\item $(f-g)(x) = f(x)-g(x) = (5x+6)-(3x^2-4x+8) = -3x^2+9x-2$
+		\end{itemize}
+	\end{sol}
+\end{ex}
+
+\vspace{1cm}
+
+\begin{ex}[sol later]
+	Dadas las funciones $f(x)=12x^3+15x^2-6x$ y $g(x)=3x$, calcula el producto $(f \cdot g)(x)$ y la división $(\dfrac{f}{g})(x)$ de las funciones.
+	\begin{sol}
+		\begin{itemize}
+			\item $(f \cdot g)(x) = f(x) \cdot g(x) = (12x^3+15x^2-6x) \cdot(3x) = 36x^4+45x^3-18x^2$
+			\item $(\dfrac{f}{g})(x) = \dfrac{f(x)}{g(x)} = \dfrac{(12x^3+15x^2-6x)}{(3x)} = 4x^2+5x-2$
+		\end{itemize}
+	\end{sol}
+\end{ex}
+
+\vspace{1cm}
+
+\begin{ex}[sol later]
+	Dadas las funciones $f(x)=\sqrt{x}$, $g(x)=x-4$ y $h(x)=\dfrac{2}{3-x}$, calcula $(f+g)(x), (g+h)(x), (\dfrac{f}{g})(x), (\dfrac{g}{f})(x), (f\cdot g)(x)$ y $(\dfrac{g}{h})(x)$.
+	\begin{sol}
+		\begin{itemize}
+			\item $(f+g)(x) = f(x) + g(x) = \sqrt{x} + (x-4) = \sqrt{x} + x -4$
+			\item $(g+h)(x) = g(x) + h(x) = (x-4) + \dfrac{2}{3-x} = x - 4 + \dfrac{2}{3-x}$
+			\item $(\dfrac{f}{g})(x) = \dfrac{f(x)}{g(x)} = \dfrac{\sqrt{x}}{x-4}$
+			\item $(\dfrac{g}{f})(x) = \dfrac{g(x)}{f(x)} = \dfrac{x-4}{\sqrt{x}}$
+			\item $(f\cdot g)(x) = f(x) \cdot g(x) = \sqrt{x} \cdot \dfrac{2}{3-x} = \dfrac{2\sqrt{x}}{3-x}$
+			\item $(\dfrac{g}{h})(x) = \dfrac{g(x)}{h(x)} = \dfrac{x-4}{\dfrac{2}{3-x}} = \dfrac{(x-4)(3-x)}{2}$
+		\end{itemize}
+	\end{sol}
+\end{ex}

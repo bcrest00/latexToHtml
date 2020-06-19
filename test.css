@@ -1,19 +1,39 @@
- 
+
+/* test.css from test.tex (TeX4ht) */
 /* start css.sty */
-.ecrm-2074{font-size:166%;}
-.ecrm-1440{font-size:116%;}
-.ectt-1200{ font-family: monospace,monospace;}
-.ectt-1200{ font-family: monospace,monospace;}
-.ectt-1200{ font-family: monospace,monospace;}
-.ectt-1200{ font-family: monospace,monospace;}
-.ectt-1200{ font-family: monospace,monospace;}
-.ectt-1200{ font-family: monospace,monospace;}
-.cmr-8{font-size:66%;}
-.cmmi-12{font-style: italic;}
-.cmmi-8{font-size:66%;font-style: italic;}
-.cmsy-8{font-size:66%;}
 .cmmib-10x-x-120{font-style: italic; font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
+.cmbsy-10x-x-120{font-weight: bold;}
+.cmbsy-10x-x-120{font-weight: bold;}
+.cmbsy-8{font-size:66%;font-weight: bold;}
+.cmbsy-8{font-weight: bold;}
+.cmbsy-8{font-weight: bold;}
+.cmbsy-6{font-size:50%;font-weight: bold;}
+.cmbsy-6{font-weight: bold;}
+.cmbsy-6{font-weight: bold;}
+.cmex-8{font-size:66%;}
+.cmex-7x-x-85{font-size:49%;}
+.msam-10x-x-80{font-size:66%;}
+.msam-7x-x-85{font-size:49%;}
+.msbm-10x-x-80{font-size:66%;}
+.msbm-7x-x-85{font-size:49%;}
+.cmr-8{font-size:66%;}
+.cmr-6{font-size:50%;}
+.cmmi-12{font-style: italic;}
+.cmmi-8{font-size:66%;font-style: italic;}
+.cmmi-6{font-size:50%;font-style: italic;}
+.cmsy-8{font-size:66%;}
+.cmsy-6{font-size:50%;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ecrm-2074{font-size:166%;}
+.ecrm-1440{font-size:116%;}
+.ecti-1200{ font-style: italic;}
 .ecti-1200{ font-style: italic;}
 .ecti-1200{ font-style: italic;}
 .ecti-1200{ font-style: italic;}
@@ -26,6 +46,14 @@
 .ecbx-1200{ font-weight: bold;}
 .ecbx-1200{ font-weight: bold;}
 .ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
+.ecbi-1200{ font-weight: bold;   font-style: italic;}
 @media print {span.next {visibility:hidden;}}
 body#tex4ht-menu {white-space: nowrap; }
 p{margin-top:0;margin-bottom:0}
@@ -38,7 +66,7 @@ a img { border-top: 0; border-left: 0; border-right: 0; }
 center { margin-top:1em; margin-bottom:1em; }
 td center { margin-top:0em; margin-bottom:0em; }
 .Canvas { position:relative; }
-img.math{vertical-align:middle;}
+math { text-indent: 0em; }
 li p.indent { text-indent: 0em }
 li p:first-child{ margin-top:0em; }
 li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -98,23 +126,30 @@ div.figure img {text-align:center;}
 .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
 .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
 .reversemarginpar{float:left;}
-table.equation {width:100%;}
-.equation td{text-align:center; }
-td.equation { margin-top:1em; margin-bottom:1em; } 
-td.equation-label { width:5%; text-align:center; }
-td.eqnarray4 { width:5%; white-space: normal; }
-td.eqnarray2 { width:5%; }
-table.eqnarray-star, table.eqnarray {width:100%;}
-div.eqnarray{text-align:center;}
-div.array {text-align:center;}
-div.pmatrix {text-align:center;}
-table.pmatrix {width:100%;}
-span.pmatrix img{vertical-align:middle;}
-div.pmatrix {text-align:center;}
-table.pmatrix {width:100%;}
-span.bar-css {text-decoration:overline;}
+span.textbf { font-weight: bold; }
+span.textit { font-style: italic; }
+span.textrm { font-family: serif; }
+span.textsc { font-variant: small-caps; }
+span.textsf { font-family: sans-serif; }
+span.texttt { font-family: monospace,monospace; }
+span.emph { font-style: italic;}
+span.emph span.emph {font-style: normal;}
+.equation td{text-align:center; vertical-align:middle; }
+td.eq-no{ width:5%; }
+table.equation { width:100%; } 
+div.math-display, div.par-math-display{text-align:center;}
+mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
+mtr.hline mtd mo{ display:none }
+math .texttt { font-family: monospace; }
+math .textit { font-style: italic; }
+math .textsl { font-style: oblique; }
+math .textsf { font-family: sans-serif; }
+math .textbf { font-weight: bold; }
 table.tabular{border-collapse: collapse; border-spacing: 0;}
-img.cdots{vertical-align:middle;}
+mo.MathClass-op + mi{margin-left:0.3em}
+mi + mo.MathClass-op{margin-left:0.3em}
+ math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+ math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
@@ -143,19 +178,236 @@ figure.figure img {text-align:center;}
 figure.figure > p {text-align:center;}
 figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
-.equation td{text-align:center; }
-.equation-star td{text-align:center; }
-table.equation-star { width:100%; }
-table.equation { width:100%; }
-table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
-table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
-td.align-label { width:5%; text-align:center; }
-td.align-odd { text-align:right; padding-right:0.3em;}
-td.align-even { text-align:left; padding-right:0.6em;}
-table.multline, table.multline-star {width:100%;}
-td.gather {text-align:center; }
-table.gather {width:100%;}
-div.gather-star {text-align:center;}
-div.center-matrix{text-align: center;}
+ .ex { border:none; padding: 1em; background: #C5E5A7; } 
+ .sol { border:none; padding: 1em; } 
+.rotatebox{display: inline-block;}
+.figure img.graphics {margin-left:10%;}
+div.verbatiminput {font-family: monospace,monospace; white-space: nowrap; }
+.lstlisting .label{margin-right:0.5em; }
+div.lstlisting{font-family: monospace,monospace; white-space: nowrap; margin-top:0.5em; margin-bottom:0.5em; }
+div.lstinputlisting{ font-family: monospace,monospace; white-space: nowrap; }
+.lstinputlisting .label{margin-right:0.5em;}
+ .scq { border:none; padding: 1em; background: #FAF0A8; } 
+ .feedback { border:none; padding: 1em; } 
+.equation-star td{text-align:center; vertical-align:middle; }
+table.equation-star { width:100%; } 
+mtd.align-odd{margin-left:2em; text-align:right;}
+mtd.align-even{margin-right:2em; text-align:left;}
+.boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
+ .edpuzzlecontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+ .edpuzzlecontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; frameborder:0px; allowfullscreen=true; } 
+ .edpuzzlecontainer p { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; padding: 0.2em; border:none; } 
+ .youtubecontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+ .youtubecontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+ .geogebracontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+ .geogebracontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+ .desmoscontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
+ .desmoscontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+#textcolor1{color:#FF0000}
+#textcolor2{color:#00FF00}
+#textcolor3{color:#FF0000}
+#textcolor4{color:#00FF00}
+#textcolor5{color:#FF0000}
+#textcolor6{color:#FF0000}
+#textcolor7{color:#FF0000}
+#textcolor8{color:#FF0000}
+#textcolor9{color:#00FF00}
+#textcolor10{color:#FF0000}
+#textcolor11{color:#00FF00}
+#textcolor12{color:#00FF00}
+#textcolor13{color:#FF0000}
+#textcolor14{color:#00FF00}
+#textcolor15{color:#FF0000}
 /* end css.sty */
+
+/* panel principal */
+body {
+  //background:yellow;
+     margin: auto;
+     width: 80%;
+     max-width: 80%;
+     font-size:120%;
+     text-align: justify;
+     text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+     hyphens:auto;
+     margin-top:0px;
+}
+
+
+/* panel toc */
+body#tex4ht-menu {
+  background: #F4F4F4;
+  max-width: 70%;
+  font-size:100%;
+  white-space: normal;
+}
+
+
+body#tex4ht-main {
+  //background:green;
+  //font-size:200%;
+}
+
+/* título en portada */
+h2.titleHead {
+  font-size:300%;
+}
+
+nav.breadcrumbs-bar {
+                                                                          
+
+                                                                          
+  //border: 1px solid black;
+  text-align: center;
+  overflow: auto;
+  background-color: #F4F4F4;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2em;
+  padding: 0px;
+  margin: 0px;
+  line-height: 2em;// centrar texto verticalmente
+  font-size:100%;
+  z-index:1; // para que no lo tapen otros elementos como iframes
+}
+
+
+
+nav.controls-bar {
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  left: 0;
+  display:grid;
+  grid-template-columns: 10% 80% 10%;
+  justify-items: center;
+}
+
+nav.controls-bar nav.prev {
+  //border: 1px solid black;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-size:200%;
+}
+
+
+nav.controls-bar nav.next {
+  //border: 1px solid black;
+  grid-column: 3;
+  font-size:200%;
+                                                                          
+
+                                                                          
+}
+
+
+nav.controls-bar a:hover{
+  color: gray;
+  text-decoration: none;
+}
+
+/* links */
+a:link{
+  color: #005AA0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #005AA0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.fakebreadcrumbs {
+  //background:yellow;
+  display: inline-block;
+  text-decoration:none;
+  vertical-align: bottom;
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -1em;
+  margin-bottom: 2em;
+}
+
+/* evita outline alrededor de fakebreadcrumbs en Chrome */
+.sectionHead a:focus, .likesectionHead a:focus, .subsectionHead a:focus, .likesubsectionHead a:focus {
+     outline: none;
+     -moz-outline-style: none;
+}
+
+                                                                          
+
+                                                                          
+
+
+/* ============================================================
+ * Cabeceras de secciones y subsecciones en el texto
+ * ============================================================
+ */
+
+.sectionHead {
+  font-family: sans-serif;
+  font-size: 200%;
+}
+
+.likesectionHead {
+  font-family: sans-serif;
+  font-size:200%;
+}
+
+.subsectionHead {
+  font-family: sans-serif;
+  font-size:150%;
+}
+
+.subsubsectionHead {
+  font-family: sans-serif;
+  font-size:125%;
+}
+
+/* ============================================================
+ * Cabeceras de secciones y subsecciones en el texto
+ * ============================================================
+ */
+
+.sectionToc {
+  font-family: sans-serif;
+  font-size:100%;
+}
+
+.likesectionToc {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+                                                                          
+
+                                                                          
+
+.subsectionToc {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+
+/* ============================================================
+ * Título en toc
+ * ============================================================
+ */
+
+.title-in-toc {
+  //font-family: sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+}
+
 
