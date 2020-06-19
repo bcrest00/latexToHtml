@@ -57,13 +57,14 @@ nav.breadcrumbs-bar {
 
 nav.controls-bar {
   overflow: hidden;
-  position: fixed; 
-  top: 50%; 
+  position: fixed;
+  top: 50%;
   width: 100%;
   left: 0;
   display:grid;
   grid-template-columns: 10% 80% 10%;
   justify-items: center;
+  z-index:-1;
 }
 
 nav.controls-bar nav.prev {

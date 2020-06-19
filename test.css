@@ -287,6 +287,7 @@ nav.controls-bar {
   display:grid;
   grid-template-columns: 10% 80% 10%;
   justify-items: center;
+  z-index:-1;
 }
 
 nav.controls-bar nav.prev {
@@ -300,10 +301,10 @@ nav.controls-bar nav.prev {
 nav.controls-bar nav.next {
   //border: 1px solid black;
   grid-column: 3;
-  font-size:200%;
                                                                           
 
                                                                           
+  font-size:200%;
 }
 
 
@@ -344,10 +345,10 @@ a:hover {
      outline: none;
      -moz-outline-style: none;
 }
-
                                                                           
 
                                                                           
+
 
 
 /* ============================================================
@@ -388,10 +389,10 @@ a:hover {
 .likesectionToc {
   font-family: sans-serif;
   font-size: 100%;
-}
                                                                           
 
                                                                           
+}
 
 .subsectionToc {
   font-family: sans-serif;
