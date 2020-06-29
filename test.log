@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=latex 2020.6.2)  19 JUN 2020 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=latex 2020.6.2)  29 JUN 2020 02:31
 entering extended mode
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
 e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
@@ -951,21 +951,15 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip53
 \thm@headsep=\skip54
 \dth@everypar=\toks41
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/changepage\changepage.sty"
-Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count298
-\cp@tempcnt=\count299
 )
-\docparskip=\skip55
-\c@SolutionAfter=\count300
-\c@exmpno=\count301
-\c@SolutionLater=\count302
-\c@SolutionPartLater=\count303
-\c@thmno=\count304
+\c@SolutionAfter=\count298
+\c@exmpno=\count299
+\c@SolutionLater=\count300
+\c@Thmno=\count301
 WARNING: environment SolutionLater already in use
-WARNING: environment SolutionPartLater already in use
-\c@exno=\count305
-\c@Solutionno=\count306
+\c@exno=\count302
+\c@Solutionno=\count303
+\docparskip=\skip55
 ) (C:/Users/Beatriz/Desktop/MikTeX_Local\tex/latex/choices\choices.sty
 
 LaTeX Warning: You have requested package `choices',
@@ -977,8 +971,8 @@ version 2019-12-19-14:27
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\usepackage.4ht"
 version 2019-12-19-14:27
 )
-\c@scqno=\count307
-\c@choiceno=\count308
+\c@scqno=\count304
+\c@choiceno=\count305
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty" ("C:\Program Files
 \MiKTeX 2.9\tex/generic/tex4ht\usepackage.4ht"
 version 2019-12-19-14:27
@@ -987,10 +981,10 @@ ogram Files\MiKTeX 2.9\tex/generic/tex4ht\usepackage.4ht"
 version 2019-12-19-14:27
 )
 Package: xparse 2020-02-25 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count309
-\g__xparse_grabber_int=\count310
-\l__xparse_m_args_int=\count311
-\l__xparse_v_nesting_int=\count312
+\l__xparse_current_arg_int=\count306
+\g__xparse_grabber_int=\count307
+\l__xparse_m_args_int=\count308
+\l__xparse_v_nesting_int=\count309
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
@@ -1011,13 +1005,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count313
+\inf@bad=\count310
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count314
-\leftroot@=\count315
+\uproot@=\count311
+\leftroot@=\count312
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count316
-\DOTSCASE@=\count317
+\classnum@=\count313
+\DOTSCASE@=\count314
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -1026,15 +1020,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen198
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count318
-\c@MaxMatrixCols=\count319
+\macc@depth=\count315
+\c@MaxMatrixCols=\count316
 \dotsspace@=\muskip16
-\c@parentequation=\count320
-\dspbrk@lvl=\count321
+\c@parentequation=\count317
+\dspbrk@lvl=\count318
 \tag@help=\toks43
-\row@=\count322
-\column@=\count323
-\maxfields@=\count324
+\row@=\count319
+\column@=\count320
+\maxfields@=\count321
 \andhelp@=\toks44
 \eqnshift@=\dimen199
 \alignsep@=\dimen256
@@ -1081,8 +1075,8 @@ Package auxhook Warning: Cannot patch \document,
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen261
-\Hy@linkcounter=\count325
-\Hy@pagecounter=\count326
+\Hy@linkcounter=\count322
+\Hy@pagecounter=\count323
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -1092,7 +1086,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count327
+\Hy@SavedSpaceFactor=\count324
 Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
@@ -1101,7 +1095,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count328
+\c@Hy@tempcnt=\count325
 ("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -1114,7 +1108,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count329
+\Fld@menulength=\count326
 \Field@Width=\dimen263
 \Fld@charsize=\dimen264
 \Field@toks=\toks47
@@ -1130,7 +1124,7 @@ LaTeX Info: Redefining \pageref on input line 6504.
 ("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count330
+\Hy@abspage=\count327
 
 Package hyperref Message: Stopped early.
 
@@ -1140,7 +1134,7 @@ Package hyperref Info: Driver: htex4ht.
 File: htex4ht.def 2020/01/14 v7.00d Hyperref driver for TeX4ht
 Package hyperref Info: tex4ht is already loaded.
 )
-\c@theorem=\count331
+\c@theorem=\count328
 (config.cfg ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\tex4ht.4ht"
 version 2018-12-30-09:29
 --------------------------------------
@@ -1153,7 +1147,7 @@ version 2018-12-30-09:29
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\tex4ht.sty"
 version 2019-03-18-15:24
 --- needs --- tex4ht test ---
-\tmp:cnt=\count332
+\tmp:cnt=\count329
 \openout15 = `test.tmp'.
 
 (test.tmp)
@@ -2698,9 +2692,12 @@ version 2019-11-21-13:36
 \:tocout=\write20
 \openout6 = `test.4tc'.
 
-\openout6 = `test.mw'.
 
-\openout6 = `test.mw'.
+Package morewrites Warning: File 'test.mw' exists, using 'test.mw.mw' instead.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\info4ht.4ht"
 version 2019-03-18-15:25
@@ -3484,16 +3481,16 @@ version 2019-12-28-14:40
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\mathml.4ht"
 version 2019-12-30-14:10
 \tmp:bx=\box77
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 [1
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 139
 3.
@@ -3505,269 +3502,269 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 139
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[2] (test.mw)
-\openout6 = `test.mw'.
+[2] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[3] (test.mw)
-\openout6 = `test.mw'.
+[3] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[4] (test.mw)
-\openout6 = `test.mw'.
+[4] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[5] (test.mw)
-\openout6 = `test.mw'.
+[5] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[6] (test.mw)
-\openout6 = `test.mw'.
+[6] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[7] (test.mw)
-\openout6 = `test.mw'.
+[7] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[8] (test.mw)
-\openout6 = `test.mw'.
+[8] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[9] (test.mw)
-\openout6 = `test.mw'.
+[9] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[10] (test.mw)
-\openout6 = `test.mw'.
+[10] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[11] (test.mw)
-\openout6 = `test.mw'.
+[11] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[12] (test.mw)
-\openout6 = `test.mw'.
+[12] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[13] (test.mw)
-\openout6 = `test.mw'.
+[13] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[14] (test.mw)
-\openout6 = `test.mw'.
+[14] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[15] (test.mw)
-\openout6 = `test.mw'.
+[15] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[16] (test.mw)
-\openout6 = `test.mw'.
+[16] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[17] (test.mw)
-\openout6 = `test.mw'.
+[17] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[18] (test.mw)
-\openout6 = `test.mw'.
+[18] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[19] (test.mw)
-\openout6 = `test.mw'.
+[19] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[20] (test.mw)
-\openout6 = `test.mw'.
+[20] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[21] (test.mw)
-\openout6 = `test.mw'.
+[21] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[22] (test.mw)
-\openout6 = `test.mw'.
+[22] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[23] (test.mw)
-\openout6 = `test.mw'.
+[23] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[24] (test.mw)
-\openout6 = `test.mw'.
+[24] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[25] (test.mw)
-\openout6 = `test.mw'.
+[25] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[26] (test.mw)
-\openout6 = `test.mw'.
+[26] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[27] (test.mw)
-\openout6 = `test.mw'.
+[27] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[28] (test.mw)
-\openout6 = `test.mw'.
+[28] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[29] (test.mw)
-\openout6 = `test.mw'.
+[29] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[30] (test.mw)
-\openout6 = `test.mw'.
+[30] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[31] (test.mw)
-\openout6 = `test.mw'.
+[31] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[32] (test.mw)
-\openout6 = `test.mw'.
+[32] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[33] (test.mw)
-\openout6 = `test.mw'.
+[33] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[34] (test.mw)
-\openout6 = `test.mw'.
+[34] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[35] (test.mw)
-\openout6 = `test.mw'.
+[35] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[36] (test.mw)
-\openout6 = `test.mw'.
+[36] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[37] (test.mw)
-\openout6 = `test.mw'.
+[37] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[38] (test.mw)
-\openout6 = `test.mw'.
+[38] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[39] (test.mw)
-\openout6 = `test.mw'.
+[39] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[40] (test.mw)
-\openout6 = `test.mw'.
+[40] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[41] (test.mw)
-\openout6 = `test.mw'.
+[41] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[42] (test.mw)
-\openout6 = `test.mw'.
+[42] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[43] (test.mw)
-\openout6 = `test.mw'.
+[43] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[44] (test.mw)
-\openout6 = `test.mw'.
+[44] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[45] (test.mw)
-\openout6 = `test.mw'.
+[45] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[46] (test.mw)
-\openout6 = `test.mw'.
+[46] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[47] (test.mw)
-\openout6 = `test.mw'.
+[47] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[48] (test.mw)
-\openout6 = `test.mw'.
+[48] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --------------------------------------
 --- Note --- for sources failing to produce clean mathml code, try the command 
 line option `mathml-'
 --------------------------------------
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[49] (test.mw)
-\openout6 = `test.mw'.
+[49] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[50] (test.mw)
-\openout6 = `test.mw'.
+[50] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[51] (test.mw)
-\openout6 = `test.mw'.
+[51] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[52] (test.mw)
-\openout6 = `test.mw'.
+[52] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[53] (test.mw)
-\openout6 = `test.mw'.
+[53] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\html-mml.4ht"
 version 2018-12-05-15:46
@@ -4246,7 +4243,7 @@ version 2019-03-18-15:25
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\html5.4ht"
 version 2019-11-21-13:36
 )) (C:/Users/Beatriz/Desktop/MikTeX_Local\tex/latex/solutions\solutions.4ht
-\c@SolutionCollapsible=\count333
+\c@SolutionCollapsible=\count330
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\pgf.4ht"
 version 2009-05-21-09:32
 ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\info4ht.4ht"
@@ -4803,1025 +4800,1025 @@ version 2020-01-24-14:39
 version 2019-12-28-14:40
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\mathml.4ht"
 version 2019-12-30-14:10
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[54] (test.mw)
-\openout6 = `test.mw'.
+[54] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[55] (test.mw)
-\openout6 = `test.mw'.
+[55] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[56] (test.mw)
-\openout6 = `test.mw'.
+[56] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[57] (test.mw)
-\openout6 = `test.mw'.
+[57] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[58] (test.mw)
-\openout6 = `test.mw'.
+[58] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[59] (test.mw)
-\openout6 = `test.mw'.
+[59] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[60] (test.mw)
-\openout6 = `test.mw'.
+[60] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[61] (test.mw)
-\openout6 = `test.mw'.
+[61] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[62] (test.mw)
-\openout6 = `test.mw'.
+[62] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[63] (test.mw)
-\openout6 = `test.mw'.
+[63] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[64] (test.mw)
-\openout6 = `test.mw'.
+[64] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[65] (test.mw)
-\openout6 = `test.mw'.
+[65] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[66] (test.mw)
-\openout6 = `test.mw'.
+[66] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[67] (test.mw)
-\openout6 = `test.mw'.
+[67] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[68] (test.mw)
-\openout6 = `test.mw'.
+[68] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[69] (test.mw)
-\openout6 = `test.mw'.
+[69] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[70] (test.mw)
-\openout6 = `test.mw'.
+[70] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[71] (test.mw)
-\openout6 = `test.mw'.
+[71] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[72] (test.mw)
-\openout6 = `test.mw'.
+[72] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[73] (test.mw)
-\openout6 = `test.mw'.
+[73] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[74] (test.mw)
-\openout6 = `test.mw'.
+[74] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[75] (test.mw)
-\openout6 = `test.mw'.
+[75] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[76] (test.mw)
-\openout6 = `test.mw'.
+[76] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[77] (test.mw)
-\openout6 = `test.mw'.
+[77] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[78] (test.mw)
-\openout6 = `test.mw'.
+[78] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[79] (test.mw)
-\openout6 = `test.mw'.
+[79] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[80] (test.mw)
-\openout6 = `test.mw'.
+[80] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[81] (test.mw)
-\openout6 = `test.mw'.
+[81] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[82] (test.mw)
-\openout6 = `test.mw'.
+[82] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[83] (test.mw)
-\openout6 = `test.mw'.
+[83] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[84] (test.mw)
-\openout6 = `test.mw'.
+[84] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[85] (test.mw)
-\openout6 = `test.mw'.
+[85] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[86] (test.mw)
-\openout6 = `test.mw'.
+[86] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[87] (test.mw)
-\openout6 = `test.mw'.
+[87] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[88] (test.mw)
-\openout6 = `test.mw'.
+[88] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[89] (test.mw)
-\openout6 = `test.mw'.
+[89] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[90] (test.mw)
-\openout6 = `test.mw'.
+[90] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[91] (test.mw)
-\openout6 = `test.mw'.
+[91] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[92] (test.mw)
-\openout6 = `test.mw'.
+[92] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[93] (test.mw)
-\openout6 = `test.mw'.
+[93] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[94] (test.mw)
-\openout6 = `test.mw'.
+[94] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[95] (test.mw)
-\openout6 = `test.mw'.
+[95] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[96] (test.mw)
-\openout6 = `test.mw'.
+[96] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[97] (test.mw)
-\openout6 = `test.mw'.
+[97] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[98] (test.mw)
-\openout6 = `test.mw'.
+[98] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[99] (test.mw)
-\openout6 = `test.mw'.
+[99] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[100] (test.mw)
-\openout6 = `test.mw'.
+[100] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[101] (test.mw)
-\openout6 = `test.mw'.
+[101] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[102] (test.mw)
-\openout6 = `test.mw'.
+[102] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[103] (test.mw)
-\openout6 = `test.mw'.
+[103] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[104] (test.mw)
-\openout6 = `test.mw'.
+[104] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[105] (test.mw)
-\openout6 = `test.mw'.
+[105] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[106] (test.mw)
-\openout6 = `test.mw'.
+[106] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[107] (test.mw)
-\openout6 = `test.mw'.
+[107] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[108] (test.mw)
-\openout6 = `test.mw'.
+[108] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[109] (test.mw)
-\openout6 = `test.mw'.
+[109] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[110] (test.mw)
-\openout6 = `test.mw'.
+[110] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[111] (test.mw)
-\openout6 = `test.mw'.
+[111] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[112] (test.mw)
-\openout6 = `test.mw'.
+[112] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[113] (test.mw)
-\openout6 = `test.mw'.
+[113] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[114] (test.mw)
-\openout6 = `test.mw'.
+[114] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[115] (test.mw)
-\openout6 = `test.mw'.
+[115] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[116] (test.mw)
-\openout6 = `test.mw'.
+[116] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[117] (test.mw)
-\openout6 = `test.mw'.
+[117] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[118] (test.mw)
-\openout6 = `test.mw'.
+[118] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[119] (test.mw)
-\openout6 = `test.mw'.
+[119] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[120] (test.mw)
-\openout6 = `test.mw'.
+[120] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[121] (test.mw)
-\openout6 = `test.mw'.
+[121] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[122] (test.mw)
-\openout6 = `test.mw'.
+[122] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[123] (test.mw)
-\openout6 = `test.mw'.
+[123] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[124] (test.mw)
-\openout6 = `test.mw'.
+[124] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[125] (test.mw)
-\openout6 = `test.mw'.
+[125] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[126] (test.mw)
-\openout6 = `test.mw'.
+[126] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[127] (test.mw)
-\openout6 = `test.mw'.
+[127] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[128] (test.mw)
-\openout6 = `test.mw'.
+[128] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[129] (test.mw)
-\openout6 = `test.mw'.
+[129] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[130] (test.mw)
-\openout6 = `test.mw'.
+[130] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[131] (test.mw)
-\openout6 = `test.mw'.
+[131] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[132] (test.mw)
-\openout6 = `test.mw'.
+[132] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[133] (test.mw)
-\openout6 = `test.mw'.
+[133] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[134] (test.mw)
-\openout6 = `test.mw'.
+[134] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[135] (test.mw)
-\openout6 = `test.mw'.
+[135] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[136] (test.mw)
-\openout6 = `test.mw'.
+[136] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[137] (test.mw)
-\openout6 = `test.mw'.
+[137] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[138] (test.mw)
-\openout6 = `test.mw'.
+[138] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[139] (test.mw)
-\openout6 = `test.mw'.
+[139] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[140] (test.mw)
-\openout6 = `test.mw'.
+[140] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[141] (test.mw)
-\openout6 = `test.mw'.
+[141] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[142] (test.mw)
-\openout6 = `test.mw'.
+[142] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[143] (test.mw)
-\openout6 = `test.mw'.
+[143] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[144] (test.mw)
-\openout6 = `test.mw'.
+[144] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[145] (test.mw)
-\openout6 = `test.mw'.
+[145] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[146] (test.mw)
-\openout6 = `test.mw'.
+[146] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[147] (test.mw)
-\openout6 = `test.mw'.
+[147] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[148] (test.mw)
-\openout6 = `test.mw'.
+[148] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[149] (test.mw)
-\openout6 = `test.mw'.
+[149] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[150] (test.mw)
-\openout6 = `test.mw'.
+[150] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[151] (test.mw)
-\openout6 = `test.mw'.
+[151] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[152] (test.mw)
-\openout6 = `test.mw'.
+[152] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[153] (test.mw)
-\openout6 = `test.mw'.
+[153] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[154] (test.mw)
-\openout6 = `test.mw'.
+[154] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[155] (test.mw)
-\openout6 = `test.mw'.
+[155] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[156] (test.mw)
-\openout6 = `test.mw'.
+[156] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[157] (test.mw)
-\openout6 = `test.mw'.
+[157] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[158] (test.mw)
-\openout6 = `test.mw'.
+[158] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[159] (test.mw)
-\openout6 = `test.mw'.
+[159] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[160] (test.mw)
-\openout6 = `test.mw'.
+[160] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[161] (test.mw)
-\openout6 = `test.mw'.
+[161] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[162] (test.mw)
-\openout6 = `test.mw'.
+[162] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[163] (test.mw)
-\openout6 = `test.mw'.
+[163] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[164] (test.mw)
-\openout6 = `test.mw'.
+[164] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[165] (test.mw)
-\openout6 = `test.mw'.
+[165] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[166] (test.mw)
-\openout6 = `test.mw'.
+[166] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[167] (test.mw)
-\openout6 = `test.mw'.
+[167] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[168] (test.mw)
-\openout6 = `test.mw'.
+[168] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[169] (test.mw)
-\openout6 = `test.mw'.
+[169] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[170] (test.mw)
-\openout6 = `test.mw'.
+[170] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[171] (test.mw)
-\openout6 = `test.mw'.
+[171] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[172] (test.mw)
-\openout6 = `test.mw'.
+[172] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[173] (test.mw)
-\openout6 = `test.mw'.
+[173] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[174] (test.mw)
-\openout6 = `test.mw'.
+[174] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[175] (test.mw)
-\openout6 = `test.mw'.
+[175] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[176] (test.mw)
-\openout6 = `test.mw'.
+[176] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[177] (test.mw)
-\openout6 = `test.mw'.
+[177] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[178] (test.mw)
-\openout6 = `test.mw'.
+[178] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[179] (test.mw)
-\openout6 = `test.mw'.
+[179] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[180] (test.mw)
-\openout6 = `test.mw'.
+[180] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[181] (test.mw)
-\openout6 = `test.mw'.
+[181] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[182] (test.mw)
-\openout6 = `test.mw'.
+[182] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[183] (test.mw)
-\openout6 = `test.mw'.
+[183] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[184] (test.mw)
-\openout6 = `test.mw'.
+[184] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[185] (test.mw)
-\openout6 = `test.mw'.
+[185] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[186] (test.mw)
-\openout6 = `test.mw'.
+[186] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[187] (test.mw)
-\openout6 = `test.mw'.
+[187] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[188] (test.mw)
-\openout6 = `test.mw'.
+[188] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[189] (test.mw)
-\openout6 = `test.mw'.
+[189] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[190] (test.mw)
-\openout6 = `test.mw'.
+[190] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[191] (test.mw)
-\openout6 = `test.mw'.
+[191] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[192] (test.mw)
-\openout6 = `test.mw'.
+[192] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[193] (test.mw)
-\openout6 = `test.mw'.
+[193] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[194] (test.mw)
-\openout6 = `test.mw'.
+[194] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[195] (test.mw)
-\openout6 = `test.mw'.
+[195] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[196] (test.mw)
-\openout6 = `test.mw'.
+[196] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[197] (test.mw)
-\openout6 = `test.mw'.
+[197] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[198] (test.mw)
-\openout6 = `test.mw'.
+[198] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[199] (test.mw)
-\openout6 = `test.mw'.
+[199] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[200] (test.mw)
-\openout6 = `test.mw'.
+[200] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[201] (test.mw)
-\openout6 = `test.mw'.
+[201] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[202] (test.mw)
-\openout6 = `test.mw'.
+[202] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[203] (test.mw)
-\openout6 = `test.mw'.
+[203] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[204] (test.mw)
-\openout6 = `test.mw'.
+[204] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[205] (test.mw)
-\openout6 = `test.mw'.
+[205] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[206] (test.mw)
-\openout6 = `test.mw'.
+[206] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[207] (test.mw)
-\openout6 = `test.mw'.
+[207] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[208] (test.mw)
-\openout6 = `test.mw'.
+[208] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[209] (test.mw)
-\openout6 = `test.mw'.
+[209] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[210] (test.mw)
-\openout6 = `test.mw'.
+[210] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[211] (test.mw)
-\openout6 = `test.mw'.
+[211] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[212] (test.mw)
-\openout6 = `test.mw'.
+[212] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[213] (test.mw)
-\openout6 = `test.mw'.
+[213] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[214] (test.mw)
-\openout6 = `test.mw'.
+[214] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[215] (test.mw)
-\openout6 = `test.mw'.
+[215] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[216] (test.mw)
-\openout6 = `test.mw'.
+[216] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[217] (test.mw)
-\openout6 = `test.mw'.
+[217] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[218] (test.mw)
-\openout6 = `test.mw'.
+[218] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[219] (test.mw)
-\openout6 = `test.mw'.
+[219] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[220] (test.mw)
-\openout6 = `test.mw'.
+[220] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[221] (test.mw)
-\openout6 = `test.mw'.
+[221] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[222] (test.mw)
-\openout6 = `test.mw'.
+[222] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[223] (test.mw)
-\openout6 = `test.mw'.
+[223] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[224] (test.mw)
-\openout6 = `test.mw'.
+[224] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[225] (test.mw)
-\openout6 = `test.mw'.
+[225] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[226] (test.mw)
-\openout6 = `test.mw'.
+[226] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[227] (test.mw)
-\openout6 = `test.mw'.
+[227] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[228] (test.mw)
-\openout6 = `test.mw'.
+[228] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[229] (test.mw)
-\openout6 = `test.mw'.
+[229] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[230] (test.mw)
-\openout6 = `test.mw'.
+[230] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[231] (test.mw)
-\openout6 = `test.mw'.
+[231] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[232] (test.mw)
-\openout6 = `test.mw'.
+[232] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[233] (test.mw)
-\openout6 = `test.mw'.
+[233] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[234] (test.mw)
-\openout6 = `test.mw'.
+[234] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[235] (test.mw)
-\openout6 = `test.mw'.
+[235] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[236] (test.mw)
-\openout6 = `test.mw'.
+[236] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[237] (test.mw)
-\openout6 = `test.mw'.
+[237] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[238] (test.mw)
-\openout6 = `test.mw'.
+[238] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[239] (test.mw)
-\openout6 = `test.mw'.
+[239] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[240] (test.mw)
-\openout6 = `test.mw'.
+[240] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[241] (test.mw)
-\openout6 = `test.mw'.
+[241] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[242] (test.mw)
-\openout6 = `test.mw'.
+[242] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[243] (test.mw)
-\openout6 = `test.mw'.
+[243] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[244] (test.mw)
-\openout6 = `test.mw'.
+[244] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[245] (test.mw)
-\openout6 = `test.mw'.
+[245] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[246] (test.mw)
-\openout6 = `test.mw'.
+[246] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[247] (test.mw)
-\openout6 = `test.mw'.
+[247] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[248] (test.mw)
-\openout6 = `test.mw'.
+[248] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[249] (test.mw)
-\openout6 = `test.mw'.
+[249] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[250] (test.mw)
-\openout6 = `test.mw'.
+[250] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[251] (test.mw)
-\openout6 = `test.mw'.
+[251] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[252] (test.mw)
-\openout6 = `test.mw'.
+[252] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[253] (test.mw)
-\openout6 = `test.mw'.
+[253] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[254] (test.mw)
-\openout6 = `test.mw'.
+[254] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[255] (test.mw)
-\openout6 = `test.mw'.
+[255] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[256] (test.mw)
-\openout6 = `test.mw'.
+[256] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[257] (test.mw)
-\openout6 = `test.mw'.
+[257] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\html-mml.4ht"
 version 2018-12-05-15:46
@@ -5880,7 +5877,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count334
+\c@section@level=\count331
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\nameref.4ht"
 version 2019-12-23-13:36
 ("C:\Program Files\MiKTeX 2.9\tex/generic/tex4ht\info4ht.4ht"
@@ -6385,25 +6382,25 @@ LaTeX Info: Redefining \% on input line 20.
 )
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 287.
-LaTeX Font Info:    ... okay on input line 287.
-LaTeX Info: Redefining \. on input line 287.
-LaTeX Info: Redefining \% on input line 287.
-\c@lstlisting=\count335
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Info: Redefining \. on input line 372.
+LaTeX Info: Redefining \% on input line 372.
+\c@lstlisting=\count332
 Output from handle solslater going to solslater.tex
 \solslater@file=\write21
 \openout6 = `solslater.tex'.
@@ -6417,4634 +6414,4202 @@ File solslater already open
 Output from handle solslater going to solslater.tex
 File solslater already open
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 287.
-LaTeX Info: Redefining \ref on input line 287.
-LaTeX Info: Redefining \pageref on input line 287.
-LaTeX Info: Redefining \nameref on input line 287.
+Package hyperref Info: Link coloring ON on input line 372.
+LaTeX Info: Redefining \ref on input line 372.
+LaTeX Info: Redefining \pageref on input line 372.
+LaTeX Info: Redefining \nameref on input line 372.
 --- file test.css ---
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-91.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+76.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 --- file test.css ---
 (style.css
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[1] (test.mw)
-\openout6 = `test.mw'.
+[1] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[2] (test.mw)
-\openout6 = `test.mw'.
+[2] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[3] (test.mw)
-\openout6 = `test.mw'.
+[3] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[4] (test.mw)
-\openout6 = `test.mw'.
+[4] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 )
 --- file test2.html ---
 (test.4ct
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[5] (test.mw)
-\openout6 = `test.mw'.
+[5] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[6] (test.mw)
-\openout6 = `test.mw'.
+[6] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 --- file test3.html ---
 )
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 [7
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[8] (test.mw)
-\openout6 = `test.mw'.
+[8] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testse1.html ---
-(test.4ct) (samples/introduccion.tex (test.4ct)
---- file testsu1.html ---
-(test.4ct))
-\openout6 = `test.mw'.
+(test.4ct) (samples/introduccion.tex
+l.10 --- TeX4ht warning --- File `"samples/introduccion_imagen.xbb"' not found 
+---
+l.10 --- TeX4ht warning --- Cannot determine size of graphic in "samples/introd
+uccion_imagen.xbb" (no BoundingBox) ---
+l. 10 --- needs --- samples/introduccion_imagen.jpg ---
+\openout6 = `test.mw.mw'.
 
-[9] (test.mw)
-\openout6 = `test.mw'.
+[9] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testse2.html ---
-(test.4ct) (samples/concepto.tex
-l.8 --- TeX4ht warning --- File `"samples/imagenes/imagenConcepto.xbb"' not fou
-nd ---
-l.8 --- TeX4ht warning --- Cannot determine size of graphic in "samples/imagene
-s/imagenConcepto.xbb" (no BoundingBox) ---
-l. 8 --- needs --- samples/imagenes/imagenConcepto.jpg ---
-\openout6 = `test.mw'.
-
-[10
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 (test.4ct)
-\openout6 = `test.mw'.
+--- file testsu1.html ---
+(test.4ct)
+\openout6 = `test.mw.mw'.
 
-[11] (test.mw)
-\openout6 = `test.mw'.
+[10] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionsafter going to Solutionsafter.tex
-\Solutionsafter@file=\write23
-\openout6 = `Solutionsafter.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[11
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+l.16 --- TeX4ht warning --- File `"samples/ideas.xbb"' not found ---
+l.16 --- TeX4ht warning --- Cannot determine size of graphic in "samples/ideas.
+xbb" (no BoundingBox) ---
+l. 16 --- needs --- samples/ideas.png ---
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[12
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionsafter.tex'.
+[13
 
-(Solutionsafter.tex
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-[12] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-))
-\openout6 = `test.mw'.
-
-[13] (test.mw)
-\openout6 = `test.mw'.
-
---- file testse3.html ---
-(test.4ct) (samples/operaciones.tex
-\openout6 = `test.mw'.
+--- file testse2.html ---
+(test.4ct) (samples/propiedades.tex (test.4ct
+\openout6 = `test.mw.mw'.
 
 [14
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[15] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(test.4ct)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\Solutionscollapsible@file=\write24
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[16] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+)
+--- file testsu2.html ---
+(test.4ct) (samples/propiedades/concepto.tex
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[15] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[17] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+(samples/propiedades/clasificacionFunciones.tex
+l.1 --- TeX4ht warning --- File `"samples/propiedades/clasificaEsquema2.xbb"' n
+ot found ---
+l.1 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propied
+ades/clasificaEsquema2.xbb" (no BoundingBox) ---
+l. 1 --- needs --- samples/propiedades/clasificaEsquema2.jpg ---
+)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[16] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\CurrentSolution@file=\write23
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex))
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[18] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[19] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
---- file testse4.html ---
-(test.4ct) (samples/funcionCompuesta.tex
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
 
-[20
+[17] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[18] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+--- file testsu3.html ---
+(test.4ct) (samples/propiedades/dominio.tex
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[19
 
-[21] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+[20] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[22] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[21] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[22] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex))
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[23] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[24] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testse5.html ---
-(test.4ct) (samples/funcionInversa.tex
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
+
+[23] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
+
+[24] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+--- file testsu4.html ---
+(test.4ct) (samples/propiedades/simetria.tex
+\openout6 = `test.mw.mw'.
 
 [25
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(test.4ct)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[26] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[26] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionsafter going to Solutionsafter.tex
-\openout6 = `Solutionsafter.tex'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionsafter.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionsafter.tex
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[27] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[27] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
+
+[28] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-[28] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[29] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex))
-\openout6 = `test.mw'.
+))
+\openout6 = `test.mw.mw'.
 
-[29] (test.mw)
-\openout6 = `test.mw'.
+[30] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
---- file testse6.html ---
-(test.4ct) (samples/propiedades.tex (test.4ct)
---- file testsu2.html ---
-(test.4ct
-\openout6 = `test.mw'.
+--- file testsu5.html ---
+(test.4ct) (samples/propiedades/periodicidad.tex
+\openout6 = `test.mw.mw'.
 
-[30
+[31
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[32
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+l.14 --- TeX4ht warning --- File `"samples/propiedades/periodicidad1.xbb"' not 
+found ---
+l.14 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
+dades/periodicidad1.xbb" (no BoundingBox) ---
+l. 14 --- needs --- samples/propiedades/periodicidad1.jpg ---
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[33
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[34
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[35
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-) (samples/propiedades/dominio.tex
-\openout6 = `test.mw'.
-
-[31] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[32] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[33] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[34] (test.mw)
-\openout6 = `test.mw'.
-
-)
-Output from handle Solutionsafter going to Solutionsafter.tex
-\openout6 = `Solutionsafter.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionsafter.tex'.
-
-(Solutionsafter.tex))
-\openout6 = `test.mw'.
-
-[35] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testsu3.html ---
-(test.4ct) (samples/propiedades/simetria.tex
-\openout6 = `test.mw'.
+l.38 --- TeX4ht warning --- File `"samples/propiedades/periodicidad2.xbb"' not 
+found ---
+l.38 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
+dades/periodicidad2.xbb" (no BoundingBox) ---
+l. 38 --- needs --- samples/propiedades/periodicidad2.jpg ---
+\openout6 = `test.mw.mw'.
 
 [36
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[37
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[37] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[38
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-[38] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[39] (test.mw)
-\openout6 = `test.mw'.
-
-)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[40] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-))
-\openout6 = `test.mw'.
-
-[41] (test.mw)
-\openout6 = `test.mw'.
-
---- file testsu4.html ---
-(test.4ct) (samples/propiedades/periodicidad.tex
-l.11 --- TeX4ht warning --- File `"samples/propiedades/periodicidad1.xbb"' not 
+l.62 --- TeX4ht warning --- File `"samples/propiedades/periodicidad3.xbb"' not 
 found ---
-l.11 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
-dades/periodicidad1.xbb" (no BoundingBox) ---
-l. 11 --- needs --- samples/propiedades/periodicidad1.jpg ---
-\openout6 = `test.mw'.
+l.62 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
+dades/periodicidad3.xbb" (no BoundingBox) ---
+l. 62 --- needs --- samples/propiedades/periodicidad3.jpg ---
+\openout6 = `test.mw.mw'.
+
+[39
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
+
+[40
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[41
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+l.85 --- TeX4ht warning --- File `"samples/propiedades/periodicidad4.xbb"' not 
+found ---
+l.85 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
+dades/periodicidad4.xbb" (no BoundingBox) ---
+l. 85 --- needs --- samples/propiedades/periodicidad4.jpg ---
+\openout6 = `test.mw.mw'.
 
 [42
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[43
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[44
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+l.108 --- TeX4ht warning --- File `"samples/propiedades/periodicidad5.xbb"' not
+ found ---
+l.108 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propi
+edades/periodicidad5.xbb" (no BoundingBox) ---
+l. 108 --- needs --- samples/propiedades/periodicidad5.jpg ---
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[45
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-l.31 --- TeX4ht warning --- File `"samples/propiedades/periodicidad2.xbb"' not 
-found ---
-l.31 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
-dades/periodicidad2.xbb" (no BoundingBox) ---
-l. 31 --- needs --- samples/propiedades/periodicidad2.jpg ---
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[46
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[43] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-)
-l.51 --- TeX4ht warning --- File `"samples/propiedades/periodicidad3.xbb"' not 
-found ---
-l.51 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
-dades/periodicidad3.xbb" (no BoundingBox) ---
-l. 51 --- needs --- samples/propiedades/periodicidad3.jpg ---
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex)
-\openout6 = `test.mw'.
-
-[44] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-l.70 --- TeX4ht warning --- File `"samples/propiedades/periodicidad4.xbb"' not 
-found ---
-l.70 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
-dades/periodicidad4.xbb" (no BoundingBox) ---
-l. 70 --- needs --- samples/propiedades/periodicidad4.jpg ---
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex)
-l.89 --- TeX4ht warning --- File `"samples/propiedades/periodicidad5.xbb"' not 
-found ---
-l.89 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propie
-dades/periodicidad5.xbb" (no BoundingBox) ---
-l. 89 --- needs --- samples/propiedades/periodicidad5.jpg ---
-\openout6 = `test.mw'.
-
-[45] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex))
-\openout6 = `test.mw'.
-
-[46] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testsu5.html ---
+--- file testsu6.html ---
 (test.4ct) (samples/propiedades/puntosCorte.tex
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 [47
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-[48] (test.mw)
-\openout6 = `test.mw'.
+[48] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 )
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-[49] (test.mw)
-\openout6 = `test.mw'.
+[49] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 )
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-[50] (test.mw)
-\openout6 = `test.mw'.
+[50] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-[51] (test.mw)
-\openout6 = `test.mw'.
+[51] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
 
-[52] (test.mw)
-\openout6 = `test.mw'.
+[52] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex))
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[53] (test.mw)
-\openout6 = `test.mw'.
-
---- file testsu6.html ---
-(test.4ct) (samples/propiedades/continuidad.tex
-l.5 --- TeX4ht warning --- File `"samples/propiedades/funcionContinua.xbb"' not
- found ---
-l.5 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propied
-ades/funcionContinua.xbb" (no BoundingBox) ---
-l. 5 --- needs --- samples/propiedades/funcionContinua.jpg ---
-l.8 --- TeX4ht warning --- File `"samples/propiedades/funcionDiscontinua.xbb"' 
-not found ---
-l.8 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propied
-ades/funcionDiscontinua.xbb" (no BoundingBox) ---
-l. 8 --- needs --- samples/propiedades/funcionDiscontinua.jpg ---
-\openout6 = `test.mw'.
-
-[54
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[55] (test.mw)
-\openout6 = `test.mw'.
-
-))
-\openout6 = `test.mw'.
-
-[56] (test.mw)
-\openout6 = `test.mw'.
+[53] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu7.html ---
 (test.4ct) (samples/propiedades/crecimiento.tex
-l.6 --- TeX4ht warning --- File `"samples/propiedades/crecienteDecreciente.xbb"
+\openout6 = `test.mw.mw'.
+
+[54
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[55
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+l.7 --- TeX4ht warning --- File `"samples/propiedades/crecienteDecreciente.xbb"
 ' not found ---
-l.6 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propied
+l.7 --- TeX4ht warning --- Cannot determine size of graphic in "samples/propied
 ades/crecienteDecreciente.xbb" (no BoundingBox) ---
-l. 6 --- needs --- samples/propiedades/crecienteDecreciente.jpg ---
-\openout6 = `test.mw'.
+l. 7 --- needs --- samples/propiedades/crecienteDecreciente.jpg ---
+\openout6 = `test.mw.mw'.
+
+[56
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
 [57
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex)
-\openout6 = `test.mw'.
-
-[58] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[59] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
 )
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `CurrentSolution.tex'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+[58] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[60] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[61] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex))
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[62] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
+
+[59] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
+
+[60] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
+
+[61] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu8.html ---
 (test.4ct) (samples/propiedades/maxmin.tex
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[63
+[62
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-[64] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[63] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-(Solutionscollapsible.tex)
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[64] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex
-\openout6 = `test.mw'.
-
-[65] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-))
-\openout6 = `test.mw'.
-
-[66] (test.mw)
-\openout6 = `test.mw'.
+[65] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu9.html ---
 (test.4ct) (samples/propiedades/concavidad.tex
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[67
+[66
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[68] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[67] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[69] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-Output from handle Solutionscollapsible going to Solutionscollapsible.tex
-\openout6 = `Solutionscollapsible.tex'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `Solutionscollapsible.tex'.
-
-(Solutionscollapsible.tex)))
-\openout6 = `test.mw'.
-
-[70] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testse7.html ---
-(test.4ct) (samples/analisis.tex (test.4ct)
 --- file testsu10.html ---
-(test.4ct) (samples/analisis/analisisGrafica.tex
-\openout6 = `test.mw'.
+(test.4ct) (samples/propiedades/operaciones.tex
+\openout6 = `test.mw.mw'.
 
-[71
+[68
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[69] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[70] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-[72] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[73
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
+
+[71] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
+
+[72] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+))
+\openout6 = `test.mw.mw'.
+
+[73] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+--- file testsu11.html ---
+(test.4ct) (samples/propiedades/funcionCompuesta.tex
+\openout6 = `test.mw.mw'.
 
 [74
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[75] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[76] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[77
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testsu11.html ---
-(test.4ct) (samples/analisis/clasificacionFunciones.tex
-l.1 --- TeX4ht warning --- File `"samples/analisis/clasificaEsquema2.xbb"' not 
-found ---
-l.1 --- TeX4ht warning --- Cannot determine size of graphic in "samples/analisi
-s/clasificaEsquema2.xbb" (no BoundingBox) ---
-l. 1 --- needs --- samples/analisis/clasificaEsquema2.jpg ---
-)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[78
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[75] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[76] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+[77] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
+
+[78] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+))
+\openout6 = `test.mw.mw'.
+
+[79] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu12.html ---
-(test.4ct) (samples/analisis/polinomicas.tex
-\openout6 = `test.mw'.
+(test.4ct) (samples/propiedades/funcionInversa.tex
+\openout6 = `test.mw.mw'.
 
-[79
+[80
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[81] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[80] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[81] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
+
+[82] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[82] (test.mw)
-\openout6 = `test.mw'.
+[83] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)))
+\openout6 = `test.mw.mw'.
+
+[84] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+--- file testse3.html ---
+(test.4ct) (samples/funcionesElementales.tex (test.4ct)
 --- file testsu13.html ---
-(test.4ct) (samples/analisis/fraccionarias.tex
-\openout6 = `test.mw'.
+(test.4ct) (samples/analisis/analisisGrafica.tex
+\openout6 = `test.mw.mw'.
 
-[83
+[85
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[84] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[85] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[86] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[87] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testsu14.html ---
-(test.4ct) (samples/analisis/irracionales.tex
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[86] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[87
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
 
 [88
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[89] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[89] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[90] (test.mw)
-\openout6 = `test.mw'.
+[90] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[91] (test.mw)
-\openout6 = `test.mw'.
+[91
 
---- file testsu15.html ---
-(test.4ct) (samples/analisis/exponenciales.tex
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+--- file testsu14.html ---
+(test.4ct) (samples/analisis/polinomicas.tex
+\openout6 = `test.mw.mw'.
 
 [92
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[93] (test.mw)
-\openout6 = `test.mw'.
+[93] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[94] (test.mw)
-\openout6 = `test.mw'.
+[94] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[95] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
+
+[96] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-[95] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
+
+[97] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+--- file testsu15.html ---
+(test.4ct) (samples/analisis/fraccionarias.tex
+\openout6 = `test.mw.mw'.
+
+[98
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[99] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[100] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[101] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+)
+\openout6 = `test.mw.mw'.
+
+[102] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu16.html ---
-(test.4ct) (samples/analisis/logaritmicas.tex
-\openout6 = `test.mw'.
+(test.4ct) (samples/analisis/irracionales.tex
+\openout6 = `test.mw.mw'.
 
-[96
+[103
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[97] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[98] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[99] (test.mw)
-\openout6 = `test.mw'.
+[104] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[100] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[101] (test.mw)
-\openout6 = `test.mw'.
+[105] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu17.html ---
-(test.4ct) (samples/analisis/trigonometricas.tex
-\openout6 = `test.mw'.
-
-[102
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[103] (test.mw)
-\openout6 = `test.mw'.
-
-))
-\openout6 = `test.mw'.
-
-[104] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[105] (test.mw)
-\openout6 = `test.mw'.
-
---- file testse8.html ---
-(test.4ct) (samples/maths-sample.tex (test.4ct)
---- file testsu18.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+(test.4ct) (samples/analisis/exponenciales.tex
+\openout6 = `test.mw.mw'.
 
 [106
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[107] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[108] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[109] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[107] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+[110] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
+
+[111] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+--- file testsu18.html ---
+(test.4ct) (samples/analisis/logaritmicas.tex
+\openout6 = `test.mw.mw'.
+
+[112
+
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[113] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[114] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+[115] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+)
+\openout6 = `test.mw.mw'.
+
+[116] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 --- file testsu19.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[108
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[109] (test.mw)
-\openout6 = `test.mw'.
-
---- file testsu20.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[110
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testsu21.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[111
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[112] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testsu22.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[113
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[114] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testsu23.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[115
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[116] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
---- file testsu24.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+(test.4ct) (samples/analisis/trigonometricas.tex
+\openout6 = `test.mw.mw'.
 
 [117
 
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testsu25.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[118
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[118] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+))
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[119] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+--- file testse4.html ---
+(test.4ct) (samples/cuestionario.tex
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testsu26.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[119
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[120
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+\openout6 = `test.mw.mw'.
+
+[121] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `CurrentSolution.tex'.
+
+(CurrentSolution.tex
+\openout6 = `test.mw.mw'.
+
+[122] (test.mw.mw)
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
+
+\openout6 = `test.mw.mw'.
 
 )
-\openout6 = `test.mw'.
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-[120] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testse9.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[121
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[122] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[123] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-(test.4ct)
---- file testsu27.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[124] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[123] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+(CurrentSolution.tex)
+Output from handle CurrentSolution going to CurrentSolution.tex
+\openout6 = `CurrentSolution.tex'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[125] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[126] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[127] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-[128] (test.mw)
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
---- file testsu28.html ---
-(test.4ct)
-\openout6 = `test.mw'.
+\openout6 = `CurrentSolution.tex'.
 
-[129
+(CurrentSolution.tex))
+\openout6 = `test.mw.mw'.
 
-] (test.mw)
-\openout6 = `test.mw'.
+[124] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[125
 
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+\openout6 = `test.mw.mw'.
 
-\openout6 = `test.mw'.
+[126
 
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[130] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[131] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[132] (test.mw)
-\openout6 = `test.mw'.
-
---- file testse10.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[133
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[134] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[135] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[136] (test.mw)
-\openout6 = `test.mw'.
-
---- file testli1.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[137
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[138] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[139] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[140] (test.mw)
-\openout6 = `test.mw'.
-
---- file testse11.html ---
-(test.4ct)
-\openout6 = `test.mw'.
-
-[141
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[142] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[143] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[144] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[145
-
-] (test.mw)
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-\openout6 = `test.mw'.
-
-[146
-
-] (test.mw)
-\openout6 = `test.mw'.
+] (test.mw.mw)
+\openout6 = `test.mw.mw'.
 
 (test.aux
 LaTeX Info: Redefining \. on input line 20.
@@ -11060,12 +10625,12 @@ LaTeX Info: Redefining \% on input line 20.
 
  ) 
 Here is how much of TeX's memory you used:
- 32718 strings out of 481278
- 642570 string characters out of 2916607
- 1213972 words of memory out of 3000000
- 45844 multiletter control sequences out of 15000+200000
- 552004 words of font info for 77 fonts, out of 3000000 for 9000
+ 32137 strings out of 481278
+ 633586 string characters out of 2916607
+ 1062491 words of memory out of 3000000
+ 45335 multiletter control sequences out of 15000+200000
+ 550474 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,13n,97p,1359b,778s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,12n,97p,1359b,778s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on test.dvi (403 pages, 841536 bytes).
+Output written on test.dvi (383 pages, 635192 bytes).

@@ -1,42 +1,53 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Organiza tus ideas}{2}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Concepto de función}{2}{section.2}%
-\contentsline {section}{\numberline {3}Operaciones con funciones}{3}{section.3}%
-\contentsline {section}{\numberline {4}Función compuesta}{3}{section.4}%
-\contentsline {section}{\numberline {5}Función inversa de una función}{3}{section.5}%
-\contentsline {section}{\numberline {6}Propiedades globales de una función}{3}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Dominio}{4}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Simetría}{4}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Periodicidad}{4}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Puntos de corte con los ejes}{4}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Continuidad}{4}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Crecimiento y decrecimiento}{4}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Máximos y mínimos relativos y absolutos}{4}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}concavidad y puntos de inflexión}{4}{subsection.6.8}%
-\contentsline {section}{\numberline {7}Análisis gráficos de funciones}{4}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Análisis de la gráfica}{4}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Clasificación de funciones}{4}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Funciones polinómicas}{4}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Funciones fraccionarias}{4}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Funciones irracionales}{4}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Funciones exponenciales}{4}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Funciones logarítmicas}{4}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}Funciones trigonométricas}{4}{subsection.7.8}%
-\contentsline {subsection}{\numberline {7.9}Funciones definidas a trozos}{4}{subsection.7.9}%
-\contentsline {section}{\numberline {8}Matemáticas}{4}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Básicos}{5}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Delimiters}{5}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Spacing}{5}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Arrays}{6}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Equation arrays}{6}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Functions}{7}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Accents}{7}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Command definition}{7}{subsection.8.8}%
-\contentsline {subsection}{\numberline {8.9}Theorems et al.}{8}{subsection.8.9}%
-\contentsline {section}{\numberline {9}Sección}{8}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Subsección}{11}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Otra subsección}{15}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Otra sección}{18}{section.10}%
-\contentsline {section}{Otra sección no numerada}{21}{section*.2}%
-\contentsline {section}{\numberline {11}Una última sección}{25}{section.11}%
+\contentsline {subsection}{\numberline {1.1}Organiza tus ideas}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Concepto de función}{3}{section.2}%
+\contentsline {subsubsection}{\numberline {2.0.1}Ejercicios.}{6}{subsubsection.2.0.1}%
+\contentsline {section}{\numberline {3}Operaciones con funciones}{6}{section.3}%
+\contentsline {subsubsection}{\numberline {3.0.1}Ejercicios}{7}{subsubsection.3.0.1}%
+\contentsline {section}{\numberline {4}Función compuesta}{8}{section.4}%
+\contentsline {section}{\numberline {5}Función inversa de una función}{9}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Obtención de la función inversa}{9}{subsubsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {5.0.2}Ejercicios}{9}{subsubsection.5.0.2}%
+\contentsline {section}{\numberline {6}Propiedades globales de una función}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Dominio}{10}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Cómo calcular el dominio}{11}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Ejercicios}{12}{subsubsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.2}Simetría}{12}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Simetría respecto del eje de ordenadas}{13}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Simetría respecto del origen de coordenadas}{13}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Ejercicios}{13}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Periodicidad}{14}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Ejercicios}{15}{subsubsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.4}Puntos de corte con los ejes}{17}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Signo de una función}{17}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Ejercicios}{18}{subsubsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.5}Continuidad}{19}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}Ejercicios}{20}{subsubsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.6}Crecimiento y decrecimiento}{21}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}Ejercicios}{22}{subsubsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.7}Máximos y mínimos relativos y absolutos}{23}{subsection.6.7}%
+\contentsline {subsubsection}{\numberline {6.7.1}Procedimiento para calcular máximos y mínimos relativos}{23}{subsubsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.2}Ejercicios}{24}{subsubsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.8}Concavidad y puntos de inflexión}{24}{subsection.6.8}%
+\contentsline {subsubsection}{\numberline {6.8.1}Procedimiento para hallar los puntos de inflexión}{25}{subsubsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.8.2}Criterio para el estudio de la curvatura}{25}{subsubsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.3}Procedimiento para calcular la curvatura}{25}{subsubsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.4}Ejercicios}{26}{subsubsection.6.8.4}%
+\contentsline {section}{\numberline {7}Análisis gráficos de funciones}{26}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Análisis de la gráfica}{26}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Clasificación de funciones}{28}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Ejemplos}{29}{subsubsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.3}Funciones polinómicas}{29}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Modelo de función polinómica}{29}{subsubsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.4}Funciones racionales}{31}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Modelo de función racional}{31}{subsubsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.5}Funciones irracionales}{33}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Modelo de función irracional}{33}{subsubsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.6}Funciones exponenciales}{34}{subsection.7.6}%
+\contentsline {subsubsection}{\numberline {7.6.1}Modelo de función exponencial}{35}{subsubsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.7}Funciones logarítmicas}{36}{subsection.7.7}%
+\contentsline {subsubsection}{\numberline {7.7.1}Modelo de función logarítmica}{36}{subsubsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.8}Funciones trigonométricas}{38}{subsection.7.8}%
+\contentsline {subsubsection}{\numberline {7.8.1}Modelo de función trigonométrica}{38}{subsubsection.7.8.1}%
+\contentsline {section}{\numberline {8}Cuestionario final}{40}{section.8}%

@@ -69,10 +69,6 @@ File: test3.html
 File: testse1.html
 File: testsu1.html
 File: testse2.html
-File: testse3.html
-File: testse4.html
-File: testse5.html
-File: testse6.html
 File: testsu2.html
 File: testsu3.html
 File: testsu4.html
@@ -81,31 +77,18 @@ File: testsu6.html
 File: testsu7.html
 File: testsu8.html
 File: testsu9.html
-File: testse7.html
 File: testsu10.html
 File: testsu11.html
 File: testsu12.html
+File: testse3.html
 File: testsu13.html
 File: testsu14.html
 File: testsu15.html
 File: testsu16.html
 File: testsu17.html
-File: testse8.html
 File: testsu18.html
 File: testsu19.html
-File: testsu20.html
-File: testsu21.html
-File: testsu22.html
-File: testsu23.html
-File: testsu24.html
-File: testsu25.html
-File: testsu26.html
-File: testse9.html
-File: testsu27.html
-File: testsu28.html
-File: testse10.html
-File: testli1.html
-File: testse11.html
+File: testse4.html
 Css: @media print {span.next {visibility:hidden;}}
 Css: body#tex4ht-menu {white-space: nowrap; }
 Css: p{margin-top:0;margin-bottom:0}
@@ -237,7 +220,7 @@ Css: figure.figure img {text-align:center;}
 Css: figure.figure > p {text-align:center;}
 Css: figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 Css: figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
-Css:  .ex { border:none; padding: 1em; background: #C5E5A7; } 
+Css:  .ex { border:none; padding: 1em; background: #CAFFFE; display:block; } 
 Css:  .sol { border:none; padding: 1em; } 
 Css: .rotatebox{display: inline-block;}
 Css: .figure img.graphics {margin-left:10%;}
@@ -262,7 +245,10 @@ Css:  .geogebracontainer { position: relative; height: 0px; border-style: solid;
 Css:  .geogebracontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
 Css:  .desmoscontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
 Css:  .desmoscontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
-File: samples/imagenes/imagenConcepto.jpg
+Css:  .theorem, .corollary, .lemma, .definition { padding: 0px; margin: 0px; } div.newtheorem { padding: 1em; } .theorem div.newtheorem { background: #BBD0F2; } .corollary div.newtheorem { background: #BBD0F2; } .lemma div.newtheorem { background: #BBD0F2; } .definition div.newtheorem { background: #F2F95B; } div.newtheorem span.head { font-weight: bold; } 
+File: samples/introduccion_imagen.jpg
+File: samples/ideas.png
+File: samples/propiedades/clasificaEsquema2.jpg
 File: samples/propiedades/periodicidad1.jpg
 Css: #textcolor1{color:#FF0000}
 Css: #textcolor2{color:#00FF00}
@@ -283,15 +269,11 @@ File: samples/propiedades/periodicidad5.jpg
 Css: #textcolor13{color:#FF0000}
 Css: #textcolor14{color:#00FF00}
 Css: #textcolor15{color:#FF0000}
-File: samples/propiedades/funcionContinua.jpg
-File: samples/propiedades/funcionDiscontinua.jpg
 File: samples/propiedades/crecienteDecreciente.jpg
-File: samples/analisis/clasificaEsquema2.jpg
 --- characters ---
 Font("cmr","12","12","100")
 Font("ecrm","1200","12","100")
 Font("pzdr","","10","120")
-Font("cmmib","10","10","120")
 Font("cmbsy","10","10","120")
 Font("cmbsy","8","8","100")
 Font("cmbsy","6","6","100")
@@ -315,7 +297,7 @@ Font("cmsy","6","6","100")
 Font("ectt","1200","12","100")
 Font("ecrm","2074","20","100")
 Font("ecrm","1440","14","100")
+Font("tcrm","1200","12","100")
 Font("ecti","1200","12","100")
 Font("ecbx","1200","12","100")
-Font("tcrm","1200","12","100")
 Font("ecbi","1200","12","100")

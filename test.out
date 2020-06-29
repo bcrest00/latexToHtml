@@ -1,41 +1,52 @@
 \BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Organiza tus ideas}{section.1}% 2
 \BOOKMARK [1][-]{section.2}{Concepto de funci\363n}{}% 3
-\BOOKMARK [1][-]{section.3}{Operaciones con funciones}{}% 4
-\BOOKMARK [1][-]{section.4}{Funci\363n compuesta}{}% 5
-\BOOKMARK [1][-]{section.5}{Funci\363n inversa de una funci\363n}{}% 6
-\BOOKMARK [1][-]{section.6}{Propiedades globales de una funci\363n}{}% 7
-\BOOKMARK [2][-]{subsection.6.1}{Dominio}{section.6}% 8
-\BOOKMARK [2][-]{subsection.6.2}{Simetr\355a}{section.6}% 9
-\BOOKMARK [2][-]{subsection.6.3}{Periodicidad}{section.6}% 10
-\BOOKMARK [2][-]{subsection.6.4}{Puntos de corte con los ejes}{section.6}% 11
-\BOOKMARK [2][-]{subsection.6.5}{Continuidad}{section.6}% 12
-\BOOKMARK [2][-]{subsection.6.6}{Crecimiento y decrecimiento}{section.6}% 13
-\BOOKMARK [2][-]{subsection.6.7}{M\341ximos y m\355nimos relativos y absolutos}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.8}{concavidad y puntos de inflexi\363n}{section.6}% 15
-\BOOKMARK [1][-]{section.7}{An\341lisis gr\341ficos de funciones}{}% 16
-\BOOKMARK [2][-]{subsection.7.1}{An\341lisis de la gr\341fica}{section.7}% 17
-\BOOKMARK [2][-]{subsection.7.2}{Clasificaci\363n de funciones}{section.7}% 18
-\BOOKMARK [2][-]{subsection.7.3}{Funciones polin\363micas}{section.7}% 19
-\BOOKMARK [2][-]{subsection.7.4}{Funciones fraccionarias}{section.7}% 20
-\BOOKMARK [2][-]{subsection.7.5}{Funciones irracionales}{section.7}% 21
-\BOOKMARK [2][-]{subsection.7.6}{Funciones exponenciales}{section.7}% 22
-\BOOKMARK [2][-]{subsection.7.7}{Funciones logar\355tmicas}{section.7}% 23
-\BOOKMARK [2][-]{subsection.7.8}{Funciones trigonom\351tricas}{section.7}% 24
-\BOOKMARK [2][-]{subsection.7.9}{Funciones definidas a trozos}{section.7}% 25
-\BOOKMARK [1][-]{section.8}{Matem\341ticas}{}% 26
-\BOOKMARK [2][-]{subsection.8.1}{B\341sicos}{section.8}% 27
-\BOOKMARK [2][-]{subsection.8.2}{Delimiters}{section.8}% 28
-\BOOKMARK [2][-]{subsection.8.3}{Spacing}{section.8}% 29
-\BOOKMARK [2][-]{subsection.8.4}{Arrays}{section.8}% 30
-\BOOKMARK [2][-]{subsection.8.5}{Equation arrays}{section.8}% 31
-\BOOKMARK [2][-]{subsection.8.6}{Functions}{section.8}% 32
-\BOOKMARK [2][-]{subsection.8.7}{Accents}{section.8}% 33
-\BOOKMARK [2][-]{subsection.8.8}{Command definition}{section.8}% 34
-\BOOKMARK [2][-]{subsection.8.9}{Theorems et al.}{section.8}% 35
-\BOOKMARK [1][-]{section.9}{Secci\363n}{}% 36
-\BOOKMARK [2][-]{subsection.9.1}{Subsecci\363n}{section.9}% 37
-\BOOKMARK [2][-]{subsection.9.2}{Otra subsecci\363n}{section.9}% 38
-\BOOKMARK [1][-]{section.10}{Otra secci\363n}{}% 39
-\BOOKMARK [1][-]{section*.2}{Otra secci\363n no numerada}{}% 40
-\BOOKMARK [1][-]{section.11}{Una \372ltima secci\363n}{}% 41
+\BOOKMARK [2][-]{subsubsection.2.0.1}{Ejercicios.}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Operaciones con funciones}{}% 5
+\BOOKMARK [2][-]{subsubsection.3.0.1}{Ejercicios}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Funci\363n compuesta}{}% 7
+\BOOKMARK [1][-]{section.5}{Funci\363n inversa de una funci\363n}{}% 8
+\BOOKMARK [2][-]{subsubsection.5.0.1}{Obtenci\363n de la funci\363n inversa}{section.5}% 9
+\BOOKMARK [3][-]{subsubsection.5.0.2}{Ejercicios}{subsubsection.5.0.1}% 10
+\BOOKMARK [1][-]{section.6}{Propiedades globales de una funci\363n}{}% 11
+\BOOKMARK [2][-]{subsection.6.1}{Dominio}{section.6}% 12
+\BOOKMARK [3][-]{subsubsection.6.1.1}{C\363mo calcular el dominio}{subsection.6.1}% 13
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Ejercicios}{subsection.6.1}% 14
+\BOOKMARK [2][-]{subsection.6.2}{Simetr\355a}{section.6}% 15
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Simetr\355a respecto del eje de ordenadas}{subsection.6.2}% 16
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Simetr\355a respecto del origen de coordenadas}{subsection.6.2}% 17
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Ejercicios}{subsection.6.2}% 18
+\BOOKMARK [2][-]{subsection.6.3}{Periodicidad}{section.6}% 19
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Ejercicios}{subsection.6.3}% 20
+\BOOKMARK [2][-]{subsection.6.4}{Puntos de corte con los ejes}{section.6}% 21
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Signo de una funci\363n}{subsection.6.4}% 22
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Ejercicios}{subsection.6.4}% 23
+\BOOKMARK [2][-]{subsection.6.5}{Continuidad}{section.6}% 24
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Ejercicios}{subsection.6.5}% 25
+\BOOKMARK [2][-]{subsection.6.6}{Crecimiento y decrecimiento}{section.6}% 26
+\BOOKMARK [3][-]{subsubsection.6.6.1}{Ejercicios}{subsection.6.6}% 27
+\BOOKMARK [2][-]{subsection.6.7}{M\341ximos y m\355nimos relativos y absolutos}{section.6}% 28
+\BOOKMARK [3][-]{subsubsection.6.7.1}{Procedimiento para calcular m\341ximos y m\355nimos relativos}{subsection.6.7}% 29
+\BOOKMARK [3][-]{subsubsection.6.7.2}{Ejercicios}{subsection.6.7}% 30
+\BOOKMARK [2][-]{subsection.6.8}{Concavidad y puntos de inflexi\363n}{section.6}% 31
+\BOOKMARK [3][-]{subsubsection.6.8.1}{Procedimiento para hallar los puntos de inflexi\363n}{subsection.6.8}% 32
+\BOOKMARK [3][-]{subsubsection.6.8.2}{Criterio para el estudio de la curvatura}{subsection.6.8}% 33
+\BOOKMARK [3][-]{subsubsection.6.8.3}{Procedimiento para calcular la curvatura}{subsection.6.8}% 34
+\BOOKMARK [3][-]{subsubsection.6.8.4}{Ejercicios}{subsection.6.8}% 35
+\BOOKMARK [1][-]{section.7}{An\341lisis gr\341ficos de funciones}{}% 36
+\BOOKMARK [2][-]{subsection.7.1}{An\341lisis de la gr\341fica}{section.7}% 37
+\BOOKMARK [2][-]{subsection.7.2}{Clasificaci\363n de funciones}{section.7}% 38
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Ejemplos}{subsection.7.2}% 39
+\BOOKMARK [2][-]{subsection.7.3}{Funciones polin\363micas}{section.7}% 40
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Modelo de funci\363n polin\363mica}{subsection.7.3}% 41
+\BOOKMARK [2][-]{subsection.7.4}{Funciones racionales}{section.7}% 42
+\BOOKMARK [3][-]{subsubsection.7.4.1}{Modelo de funci\363n racional}{subsection.7.4}% 43
+\BOOKMARK [2][-]{subsection.7.5}{Funciones irracionales}{section.7}% 44
+\BOOKMARK [3][-]{subsubsection.7.5.1}{Modelo de funci\363n irracional}{subsection.7.5}% 45
+\BOOKMARK [2][-]{subsection.7.6}{Funciones exponenciales}{section.7}% 46
+\BOOKMARK [3][-]{subsubsection.7.6.1}{Modelo de funci\363n exponencial}{subsection.7.6}% 47
+\BOOKMARK [2][-]{subsection.7.7}{Funciones logar\355tmicas}{section.7}% 48
+\BOOKMARK [3][-]{subsubsection.7.7.1}{Modelo de funci\363n logar\355tmica}{subsection.7.7}% 49
+\BOOKMARK [2][-]{subsection.7.8}{Funciones trigonom\351tricas}{section.7}% 50
+\BOOKMARK [3][-]{subsubsection.7.8.1}{Modelo de funci\363n trigonom\351trica}{subsection.7.8}% 51
+\BOOKMARK [1][-]{section.8}{Cuestionario final}{}% 52

@@ -1,7 +1,6 @@
 
 /* test.css from test.tex (TeX4ht) */
 /* start css.sty */
-.cmmib-10x-x-120{font-style: italic; font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
@@ -178,7 +177,7 @@ figure.figure img {text-align:center;}
 figure.figure > p {text-align:center;}
 figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
- .ex { border:none; padding: 1em; background: #C5E5A7; } 
+ .ex { border:none; padding: 1em; background: #CAFFFE; display:block; } 
  .sol { border:none; padding: 1em; } 
 .rotatebox{display: inline-block;}
 .figure img.graphics {margin-left:10%;}
@@ -203,6 +202,7 @@ mtd.align-even{margin-right:2em; text-align:left;}
  .geogebracontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
  .desmoscontainer { position: relative; height: 0px; border-style: solid; border-width: 5px; border-color: #F4F4F4; background: #F4F4F4; } 
  .desmoscontainer iframe { position: absolute !important; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; border:none; } 
+ .theorem, .corollary, .lemma, .definition { padding: 0px; margin: 0px; } div.newtheorem { padding: 1em; } .theorem div.newtheorem { background: #BBD0F2; } .corollary div.newtheorem { background: #BBD0F2; } .lemma div.newtheorem { background: #BBD0F2; } .definition div.newtheorem { background: #F2F95B; } div.newtheorem span.head { font-weight: bold; } 
 #textcolor1{color:#FF0000}
 #textcolor2{color:#00FF00}
 #textcolor3{color:#FF0000}
