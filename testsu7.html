@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
 "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
 <html lang="es" xml:lang="es" > 
-<head><title>Crecimiento y decrecimiento</title> 
+<head><title>Concavidad y puntos de inflexion</title> 
 <meta  charset="utf-8" /> 
 <meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
 <meta name="viewport" content="width=device-width,initial-scale=1" /> 
@@ -19,652 +19,153 @@ function scqCorrection(thescqno) { for (i=1; i < 10; i++) { var choiceid = 'scq'
  </head><body 
 >
     
-<nav class="breadcrumbs-bar"> <span>                      <a href="test3.html">Inicio</a>                 &#x003E; 2 <a 
-href="testse2.html#x6-30002">Propiedades globales de una
-función</a>                                                                             &#x003E; 2.6 <a 
-href="#x12-200002.6">Crecimiento y
-decrecimiento</a>
+<nav class="breadcrumbs-bar"> <span>                       <a href="test3.html">Inicio</a>           &#x003E; 2 <a 
+href="testse2.html#x5-20002">Propiedades globales de una
+función</a>                                                                                &#x003E; 2.7 <a 
+href="#x12-220002.7">Concavidad y puntos de
+inflexión</a>
    </span> </nav> <nav class="controls-bar"><nav class="prev"><a 
 href="testsu6.html" ><span>❮</span></a></nav> <nav class="next"><a 
-href="testsu8.html" ><span>❯</span></a></nav></nav><h4 class="subsectionHead"><span class="titlemark">2.6   </span> <a 
-href="test2.html#QQ2-12-20" id="x12-200002.6"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Crecimiento y decrecimiento</h4>
+href="testsu8.html" ><span>❯</span></a></nav></nav><h4 class="subsectionHead"><span class="titlemark">2.7   </span> <a 
+href="test2.html#QQ2-12-22" id="x12-220002.7"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Concavidad y puntos de inflexión</h4>
    <div class = "definition">
    <div class="newtheorem">
 <!--l. 1--><p class="noindent" ><span class="head">
 <a 
- id="x12-20001r6"></a>
+ id="x12-22001r11"></a>
 <span 
 class="ecbx-1200">Definici</span><span 
 class="ecbx-1200">ó</span><span 
-class="ecbx-1200">n </span><span class="textup">6</span><span 
+class="ecbx-1200">n </span><span class="textup">11</span><span 
 class="ecbx-1200">.</span>  </span><span 
-class="ecti-1200">Una funci</span><span 
+class="ecti-1200">Un </span><span class="textbf">punto de inflexión</span> <span 
+class="ecti-1200">de una funci</span><span 
 class="ecti-1200">ó</span><span 
-class="ecti-1200">n </span><!--l. 2--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi></math>
+class="ecti-1200">n es un punto en</span>
 <span 
-class="ecti-1200">es </span><span class="textbf">creciente</span> <span 
-class="ecti-1200">en un intervalo si para cualesquiera </span><!--l. 2--><math 
+class="ecti-1200">el que la funci</span><span 
+class="ecti-1200">ó</span><span 
+class="ecti-1200">n cambia de convexa </span><!--l. 2--><math 
  xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></math>
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+class="MathClass-op">⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
+ <!--nolimits--></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
 <span 
-class="ecti-1200">y </span><!--l. 2--><math 
+class="ecti-1200">a c</span><span 
+class="ecti-1200">ó</span><span 
+class="ecti-1200">ncava </span><!--l. 2--><math 
  xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math>
-<span 
-class="ecti-1200">del intervalo tales que </span><!--l. 2--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-> <mo 
-class="MathClass-rel">&#x003C;</mo> <msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math><span 
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+class="MathClass-op">⋂</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
+ <!--nolimits--></mrow><mo 
+class="MathClass-close">)</mo></mrow></math><span 
 class="ecti-1200">,</span>
 <span 
-class="ecti-1200">se verifica que </span><!--l. 2--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">≤</mo> <mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow></math><span 
-class="ecti-1200">.</span>
+class="ecti-1200">o viceversa, y la tangente atraviesa la gr</span><span 
+class="ecti-1200">á</span><span 
+class="ecti-1200">fica.</span>
 </p>
    </div>
-   </div> Si la desigualdad es estricta, es decir, si para cualesquiera
-<!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></math> y
-<!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math> tales que
-<!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-> <mo 
-class="MathClass-rel">&#x003C;</mo> <msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math> se verifica
-que <!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">&#x003C;</mo> <mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow></math>,
-la función es <span class="textbf">estrictamente creciente</span>.<br 
-class="newline" /><br 
-class="newline" /><figure class="figure"> 
-
-                                                                          
-
-                                                                          
-                                                                          
-
-                                                                          
-<!--l. 7--><p class="noindent" ><img 
-src="samples/propiedades/crecienteDecreciente.jpg" alt="PIC"  
- /><br 
-class="newline" />
-                                                                          
-
-                                                                          
+   </div> A continuación se muestra un ejemplo de punto de inflexión.  <div class="geogebracontainer" style="width: 100%;padding-bottom:
+calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/kzzn4gj2/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
+<!--l. 5--><p class="indent" >
 </p>
-   </figure>
    <div class = "definition">
    <div class="newtheorem">
-<!--l. 11--><p class="noindent" ><span class="head">
+<!--l. 8--><p class="noindent" ><span class="head">
 <a 
- id="x12-20002r7"></a>
+ id="x12-22002r12"></a>
 <span 
 class="ecbx-1200">Definici</span><span 
 class="ecbx-1200">ó</span><span 
-class="ecbx-1200">n </span><span class="textup">7</span><span 
+class="ecbx-1200">n </span><span class="textup">12</span><span 
 class="ecbx-1200">.</span>  </span><span 
-class="ecti-1200">Una funci</span><span 
+class="ecti-1200">Estudiar la </span><span class="textbf">curvatura</span> <span 
+class="ecti-1200">de una funci</span><span 
 class="ecti-1200">ó</span><span 
-class="ecti-1200">n </span><!--l. 12--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi></math>
+class="ecti-1200">n consiste en estudiar</span>
 <span 
-class="ecti-1200">es </span><span class="textbf">decreciente</span> <span 
-class="ecti-1200">en un intervalo si para cualesquiera </span><!--l. 12--><math 
+class="ecti-1200">en qu</span><span 
+class="ecti-1200">é</span> <span 
+class="ecti-1200">intervalos es convexa </span><!--l. 9--><math 
  xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></math>
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+class="MathClass-op">⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
+ <!--nolimits--></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>
 <span 
-class="ecti-1200">y </span><!--l. 12--><math 
+class="ecti-1200">y en cu</span><span 
+class="ecti-1200">á</span><span 
+class="ecti-1200">les es c</span><span 
+class="ecti-1200">ó</span><span 
+class="ecti-1200">ncava </span><!--l. 9--><math 
  xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math>
-<span 
-class="ecti-1200">del intervalo tales que </span><!--l. 12--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-> <mo 
-class="MathClass-rel">&#x003C;</mo> <msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math><span 
-class="ecti-1200">,</span>
-<span 
-class="ecti-1200">se verifica que </span><!--l. 12--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">≥</mo> <mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></mrow><mo 
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+class="MathClass-op">⋂</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
+ <!--nolimits--></mrow><mo 
 class="MathClass-close">)</mo></mrow></math><span 
 class="ecti-1200">.</span>
+<span 
+class="ecti-1200">Los intervalos de curvatura est</span><span 
+class="ecti-1200">á</span><span 
+class="ecti-1200">n separados por los puntos de inflexi</span><span 
+class="ecti-1200">ó</span><span 
+class="ecti-1200">n y</span>
+<span 
+class="ecti-1200">las discontinuidades.</span>
 </p>
    </div>
-   </div> Como en el caso anterior, si para cualesquiera
-<!--l. 14--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></math> y
-<!--l. 14--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math> tales que
-<!--l. 14--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-> <mo 
-class="MathClass-rel">&#x003C;</mo> <msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></math> se verifica
-que <!--l. 14--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>1</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">&#x003E;</mo> <mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><msub><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msub 
-></mrow><mo 
-class="MathClass-close">)</mo></mrow></math>,
-la función es <span class="textbf">estrictamente decreciente</span>.<br 
-class="newline" /><div class="youtubecontainer" style="width: 100%;padding-bottom: calc(0.5625*100%);"><iframe src="https://www.youtube.com/embed/cWqJfem3GTk"></iframe></div>
-   <h5 class="subsubsectionHead"><span class="titlemark">2.6.1   </span> <a 
-href="testse2.html#QQ2-12-21" id="x12-210002.6.1"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Ejercicios</h5>
-<a 
- id="x12-21001r17"></a>
-   <div class = "ex"><span 
-class="ecbx-1200">Problema</span><span 
-class="ecbx-1200"> 17</span>
-<!--l. 19--><p class="indent" >   Determina los intervalos de crecimiento y decrecimiento de la función
-<!--l. 19--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo> <msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>4</mn></mrow></msup 
-> <mo 
-class="MathClass-bin">−</mo> <mn>2</mn><msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msup 
-> <mo 
-class="MathClass-bin">−</mo> <mn>8</mn></math>
-</p></div>
-   <div class = "sol"> <span 
-class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',17)"> <span id="ex17-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex17-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex17-Solution" style="display:none">
-      <ul class="itemize1">
-      <li class="itemize">Crecimiento: <!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mo 
-class="MathClass-bin">+</mo><mi 
->∞</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow></math>
-      </li>
-      <li class="itemize">Decrecimiento: <!--l. 5--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mi 
->∞</mi><mo 
-class="MathClass-punc">,</mo><mo 
-class="MathClass-bin">−</mo><mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
-class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow></math></li></ul>
+   </div>
                                                                           
 
                                                                           
-<div class="geogebracontainer" style="width:  100%;padding-bottom:
-calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/rahsjufx/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
-<!--l. 7--><p class="indent" >
+<!--l. 12--><p class="noindent" >
 </p>
-   </div></div><!--l. 9--><p class="indent" >
+   <h5 class="subsubsectionHead"><span class="titlemark">2.7.1   </span> <a 
+href="testse2.html#QQ2-12-23" id="x12-230002.7.1"><span class="fakebreadcrumbs">&emsp;</span></a><span class="fakebreadcrumbs">&emsp;</span>Ejercicios</h5>
 <a 
- id="x12-21002r18"></a>
-</p>
+ id="x12-23001r25"></a>
    <div class = "ex"><span 
 class="ecbx-1200">Problema</span><span 
-class="ecbx-1200"> 18</span>
-<!--l. 32--><p class="indent" >   Determina los intervalos de crecimiento y decrecimiento de la función
-<!--l. 32--><math 
+class="ecbx-1200"> 25</span>
+<!--l. 14--><p class="indent" >   Calcula los puntos de inflexión de las siguientes funciones:<br 
+class="newline" /></p>
+      <ul class="itemize1">
+      <li class="itemize"><!--l. 16--><math 
  xmlns="http://www.w3.org/1998/Math/MathML"  
 display="inline" ><mi 
 >f</mi><mrow ><mo 
 class="MathClass-open">(</mo><mrow><mi 
 >x</mi></mrow><mo 
 class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo> <mn>3</mn><msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>4</mn></mrow></msup 
-> <mo 
-class="MathClass-bin">−</mo> <mn>2</mn><mn>0</mn><msup><mrow 
+class="MathClass-rel">=</mo> <mo 
+class="MathClass-bin">−</mo><msup><mrow 
 ><mi 
 >x</mi></mrow><mrow 
 ><mn>3</mn></mrow></msup 
 > <mo 
-class="MathClass-bin">−</mo> <mn>6</mn><msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msup 
-> <mo 
-class="MathClass-bin">+</mo> <mn>6</mn><mn>0</mn><mi 
->x</mi> <mo 
-class="MathClass-bin">−</mo> <mn>8</mn></math>
-</p></div>
+class="MathClass-bin">+</mo> <mn>3</mn><mi 
+>x</mi></math>
+      <div class="geogebracontainer" style="width: 100%;padding-bottom: calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/tkhxm6jf/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div><!--l. 17--><p class="noindent" ></p></li></ul>
+</div>
    <div class = "sol"> <span 
-class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',18)"> <span id="ex18-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex18-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex18-Solution" style="display:none">
+class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',25)"> <span id="ex25-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex25-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex25-Solution" style="display:none">
       <ul class="itemize1">
-      <li class="itemize">Crecimiento: <!--l. 4--><math 
+      <li class="itemize">Punto de inflexión en <!--l. 4--><math 
  xmlns="http://www.w3.org/1998/Math/MathML"  
 display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mn>5</mn><mo 
-class="MathClass-punc">,</mo> <mo 
-class="MathClass-bin">+</mo><mi 
->∞</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow></math>
-      </li>
-      <li class="itemize">Decrecimiento: <!--l. 5--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mi 
->∞</mi><mo 
-class="MathClass-punc">,</mo><mo 
-class="MathClass-bin">−</mo><mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mn>5</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow></math></li></ul>
-<div class="geogebracontainer" style="width:  100%;padding-bottom:
-calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/z2jageyv/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
-<!--l. 7--><p class="indent" >
-</p>
-   </div></div><!--l. 9--><p class="indent" >
-<a 
- id="x12-21003r19"></a>
-</p>
-   <div class = "ex"><span 
-class="ecbx-1200">Problema</span><span 
-class="ecbx-1200"> 19</span>
-<!--l. 45--><p class="indent" >   Determina los intervalos de crecimiento y decrecimiento de la función
-                                                                          
-
-                                                                          
-<!--l. 45--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo><mfrac><mrow>    <mi 
->x</mi> <mo 
-class="MathClass-bin">+</mo> <mn>1</mn></mrow> 
-<mrow><msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msup 
-> <mo 
-class="MathClass-bin">+</mo> <mi 
->x</mi> <mo 
-class="MathClass-bin">−</mo> <mn>2</mn></mrow></mfrac></math>
-</p></div>
-   <div class = "sol"> <span 
-class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',19)"> <span id="ex19-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex19-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex19-Solution" style="display:none">
-      <ul class="itemize1">
-      <li class="itemize">Decrecimiento: <!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->ℝ</mi> <mo 
-class="MathClass-bin">−</mo><mrow ><mo 
-class="MathClass-open">{</mo><mrow><mo 
-class="MathClass-bin">−</mo><mn>2</mn><mo 
-class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo 
-class="MathClass-close">}</mo></mrow></math></li></ul>
-<div class="geogebracontainer" style="width:  100%;padding-bottom:
-calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/zjmqndnw/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
-<!--l. 6--><p class="indent" >
-</p>
-   </div></div><!--l. 8--><p class="indent" >
-<a 
- id="x12-21004r20"></a>
-</p>
-   <div class = "ex"><span 
-class="ecbx-1200">Problema</span><span 
-class="ecbx-1200"> 20</span>
-<!--l. 57--><p class="indent" >   Determina los intervalos de crecimiento y decrecimiento de la función
-<!--l. 57--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo><mfrac><mrow> <msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>4</mn></mrow></msup 
-> <mo 
-class="MathClass-bin">+</mo> <mn>1</mn></mrow> 
-   <mrow><msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msup 
-></mrow></mfrac>    </math>
-</p></div>
-   <div class = "sol"> <span 
-class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',20)"> <span id="ex20-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex20-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex20-Solution" style="display:none">
-      <ul class="itemize1">
-      <li class="itemize">Crecimiento: <!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mo 
-class="MathClass-bin">+</mo><mi 
->∞</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow></math>
-      </li>
-      <li class="itemize">Decrecimiento: <!--l. 5--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mi 
->∞</mi><mo 
-class="MathClass-punc">,</mo><mo 
-class="MathClass-bin">−</mo><mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
 class="MathClass-open">(</mo><mrow><mn>0</mn><mo 
-class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow></math></li></ul>
-<div class="geogebracontainer" style="width:  100%;padding-bottom:
-calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/ct2hh9nx/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
-<!--l. 7--><p class="indent" >
-</p>
+class="MathClass-punc">,</mo> <mn>0</mn></mrow><mo 
+class="MathClass-close">)</mo></mrow></math>.</li></ul>
+   </div></div><!--l. 7--><p class="indent" >
                                                                           
 
                                                                           
-   </div></div><!--l. 9--><p class="indent" >
-<a 
- id="x12-21005r21"></a>
-</p>
-   <div class = "ex"><span 
-class="ecbx-1200">Problema</span><span 
-class="ecbx-1200"> 21</span>
-<!--l. 70--><p class="indent" >   Determina los intervalos de crecimiento y decrecimiento de la función
-<!--l. 70--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo><mfrac><mrow>    <mi 
->x</mi></mrow> 
-<mrow><mn>1</mn> <mo 
-class="MathClass-bin">+</mo> <msup><mrow 
-><mi 
->x</mi></mrow><mrow 
-><mn>2</mn></mrow></msup 
-></mrow></mfrac></math>
-</p></div>
-   <div class = "sol"> <span 
-class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',21)"> <span id="ex21-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex21-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex21-Solution" style="display:none">
-      <ul class="itemize1">
-      <li class="itemize">Crecimiento: <!--l. 4--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow></math>
-      </li>
-      <li class="itemize">Decrecimiento: <!--l. 5--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mo 
-class="MathClass-bin">−</mo><mi 
->∞</mi><mo 
-class="MathClass-punc">,</mo><mo 
-class="MathClass-bin">−</mo><mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><mi 
-class="MathClass-op"> ⋃</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--></mo>
- <!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mn>1</mn><mo 
-class="MathClass-punc">,</mo> <mo 
-class="MathClass-bin">+</mo><mi 
->∞</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow></math></li></ul>
-<div class="geogebracontainer" style="width:  100%;padding-bottom:
-calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/m6jd6rcj/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
-<!--l. 7--><p class="indent" >
-</p>
-   </div></div><!--l. 9--><p class="indent" >
-<a 
- id="x12-21006r22"></a>
-</p>
-   <div class = "ex"><span 
-class="ecbx-1200">Problema</span><span 
-class="ecbx-1200"> 22</span>
-<!--l. 83--><p class="indent" >   Trata de observar los intervalos de crecimiento y de crecimiento de las
-siguientes funciones ayudándote de la representación gráfica de las mismas:
-</p>
-      <ul class="itemize1">
-      <li class="itemize"><!--l. 85--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo> <mi 
->x</mi> <mo 
-class="MathClass-bin">+</mo> <msqrt><mrow><mi 
->x</mi></mrow></msqrt></math>
-                                                                          
-
-                                                                          
-      </li>
-      <li class="itemize"><!--l. 86--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo> <msup><mrow 
-><mi 
->e</mi></mrow><mrow 
-><mfrac><mrow><mn>1</mn></mrow>
-<mrow><mi 
->x</mi></mrow></mfrac></mrow></msup 
-></math>
-      </li>
-      <li class="itemize"><!--l. 87--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo> <mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi> <mo 
-class="MathClass-bin">−</mo> <mn>1</mn></mrow><mo 
-class="MathClass-close">)</mo></mrow><msup><mrow 
-><mi 
->e</mi></mrow><mrow 
-><mo 
-class="MathClass-bin">−</mo><mi 
->x</mi></mrow></msup 
-></math>
-      </li>
-      <li class="itemize"><!--l. 88--><math 
- xmlns="http://www.w3.org/1998/Math/MathML"  
-display="inline" ><mi 
->f</mi><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow> <mo 
-class="MathClass-rel">=</mo><mfrac><mrow> <mi class="qopname">ln</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo><!--nolimits--><mrow ><mo 
-class="MathClass-open">(</mo><mrow><mi 
->x</mi></mrow><mo 
-class="MathClass-close">)</mo></mrow></mrow> 
-  <mrow><mi 
->x</mi></mrow></mfrac>  </math></li></ul>
-<div class="geogebracontainer" style="width:  100%;padding-bottom:
-calc(0.6*100%);"><iframe src="https://www.geogebra.org/material/iframe/id/tc5pbmae/width/1000/height/600/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/true/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe></div>
-<!--l. 90--><p class="indent" >
-</p></div>
-   <div class = "sol"> <span 
-class="ecbx-1200">Solución:</span><button style="background-color:transparent; border:none; outline:none;" onclick="javascript:toogleSolution('ex',22)"> <span id="ex22-SolutionShow" style="display:inline; font-size: 30px;"> &#8681</span><span id = "ex22-SolutionHide" style="display:none; font-size: 30px;">&#8679 </span></button> <div id="ex22-Solution" style="display:none">
-<!--l. 3--><p class="indent" >   Juega con el applet de Geogebra.
-</p>
-   </div></div><!--l. 5--><p class="indent" >
-                                                                          
-
-                                                                          
-</p><!--l. 19--><p class="indent" >   <div style="height:3em; width:10px; clear:both;"></div>   </p> 
+</p><!--l. 22--><p class="indent" >   <div style="height:3em; width:10px; clear:both;"></div>   </p> 
 </body> 
 </html>

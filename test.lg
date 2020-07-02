@@ -51,6 +51,10 @@ htfcss: cmmib font-style: italic; font-weight: bold;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
 htfcss: ecbx  font-weight: bold;
 htfcss: ecsx  font-weight: bold;
 htfcss: ecbi  font-weight: bold;   font-style: italic;
@@ -67,8 +71,8 @@ File: test.css
 File: test2.html
 File: test3.html
 File: testse1.html
-File: testsu1.html
 File: testse2.html
+File: testsu1.html
 File: testsu2.html
 File: testsu3.html
 File: testsu4.html
@@ -78,16 +82,14 @@ File: testsu7.html
 File: testsu8.html
 File: testsu9.html
 File: testsu10.html
+File: testse3.html
 File: testsu11.html
 File: testsu12.html
-File: testse3.html
 File: testsu13.html
 File: testsu14.html
 File: testsu15.html
 File: testsu16.html
 File: testsu17.html
-File: testsu18.html
-File: testsu19.html
 File: testse4.html
 Css: @media print {span.next {visibility:hidden;}}
 Css: body#tex4ht-menu {white-space: nowrap; }
@@ -270,10 +272,18 @@ Css: #textcolor13{color:#FF0000}
 Css: #textcolor14{color:#00FF00}
 Css: #textcolor15{color:#FF0000}
 File: samples/propiedades/crecienteDecreciente.jpg
+Css: #textcolor16{color:#00FF00}
+Css: #textcolor17{color:#FF0000}
+Css: #textcolor18{color:#FF0000}
+Css: #textcolor19{color:#FF0000}
+Css: #textcolor20{color:#00FF00}
+Css: #textcolor21{color:#FF0000}
 --- characters ---
 Font("cmr","12","12","100")
 Font("ecrm","1200","12","100")
 Font("pzdr","","10","120")
+Font("cmbx","12","12","100")
+Font("cmbx","8","8","100")
 Font("cmbsy","10","10","120")
 Font("cmbsy","8","8","100")
 Font("cmbsy","6","6","100")
@@ -298,6 +308,6 @@ Font("ectt","1200","12","100")
 Font("ecrm","2074","20","100")
 Font("ecrm","1440","14","100")
 Font("tcrm","1200","12","100")
-Font("ecti","1200","12","100")
 Font("ecbx","1200","12","100")
+Font("ecti","1200","12","100")
 Font("ecbi","1200","12","100")

@@ -1,6 +1,10 @@
 
 /* test.css from test.tex (TeX4ht) */
 /* start css.sty */
+.cmbx-12{ font-weight: bold;}
+.cmbx-12{ font-weight: bold;}
+.cmbx-8{font-size:66%; font-weight: bold;}
+.cmbx-8{ font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
 .cmbsy-10x-x-120{font-weight: bold;}
@@ -32,13 +36,6 @@
 .ectt-1200{ font-family: monospace,monospace;}
 .ecrm-2074{font-size:166%;}
 .ecrm-1440{font-size:116%;}
-.ecti-1200{ font-style: italic;}
-.ecti-1200{ font-style: italic;}
-.ecti-1200{ font-style: italic;}
-.ecti-1200{ font-style: italic;}
-.ecti-1200{ font-style: italic;}
-.ecti-1200{ font-style: italic;}
-.ecti-1200{ font-style: italic;}
 .ecbx-1200{ font-weight: bold;}
 .ecbx-1200{ font-weight: bold;}
 .ecbx-1200{ font-weight: bold;}
@@ -46,6 +43,13 @@
 .ecbx-1200{ font-weight: bold;}
 .ecbx-1200{ font-weight: bold;}
 .ecbx-1200{ font-weight: bold;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
 .ecbi-1200{ font-weight: bold;   font-style: italic;}
 .ecbi-1200{ font-weight: bold;   font-style: italic;}
 .ecbi-1200{ font-weight: bold;   font-style: italic;}
@@ -218,6 +222,12 @@ mtd.align-even{margin-right:2em; text-align:left;}
 #textcolor13{color:#FF0000}
 #textcolor14{color:#00FF00}
 #textcolor15{color:#FF0000}
+#textcolor16{color:#00FF00}
+#textcolor17{color:#FF0000}
+#textcolor18{color:#FF0000}
+#textcolor19{color:#FF0000}
+#textcolor20{color:#00FF00}
+#textcolor21{color:#FF0000}
 /* end css.sty */
 
 /* panel principal */
